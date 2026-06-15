@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042830AA2FDFF317000A059C /* rrrrr.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 042830A92FDFF317000A059C /* rrrrr.storekit */; };
+		100000000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* AppDelegate.swift */; };
+		100000000000000000000002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* SceneDelegate.swift */; };
+		100000000000000000000003 /* Shared/AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* Shared/AppConstants.swift */; };
+		100000000000000000000004 /* Shared/UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* Shared/UIView+Layout.swift */; };
+		100000000000000000000005 /* Shared/GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* Shared/GradientButton.swift */; };
+		100000000000000000000006 /* Shared/Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000006 /* Shared/Toast.swift */; };
+		100000000000000000000007 /* Auth/AuthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000007 /* Auth/AuthModels.swift */; };
+		100000000000000000000008 /* Auth/AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* Auth/AuthStore.swift */; };
+		100000000000000000000009 /* Auth/AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000009 /* Auth/AuthManager.swift */; };
+		100000000000000000000010 /* Networking/NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000010 /* Networking/NetworkService.swift */; };
+		100000000000000000000011 /* Auth/AuthBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000011 /* Auth/AuthBackgroundView.swift */; };
+		100000000000000000000012 /* Auth/AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000012 /* Auth/AuthTextField.swift */; };
+		100000000000000000000013 /* Launch/LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000013 /* Launch/LaunchViewController.swift */; };
+		100000000000000000000014 /* Auth/AuthEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000014 /* Auth/AuthEntryViewController.swift */; };
+		100000000000000000000015 /* Auth/LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000015 /* Auth/LoginViewController.swift */; };
+		100000000000000000000016 /* Auth/SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000016 /* Auth/SignUpViewController.swift */; };
+		100000000000000000000017 /* Main/MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000017 /* Main/MainTabBarController.swift */; };
+		100000000000000000000018 /* Main/BaseModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000018 /* Main/BaseModuleViewController.swift */; };
+		100000000000000000000019 /* Home/HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000019 /* Home/HomeViewController.swift */; };
+		100000000000000000000020 /* Community/CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000020 /* Community/CommunityViewController.swift */; };
+		100000000000000000000021 /* Video/VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000021 /* Video/VideoViewController.swift */; };
+		100000000000000000000022 /* Profile/ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000022 /* Profile/ProfileViewController.swift */; };
+		100000000000000000000023 /* Shared/WebRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000023 /* Shared/WebRoute.swift */; };
+		100000000000000000000024 /* Shared/WebPortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000024 /* Shared/WebPortalViewController.swift */; };
+		100000000000000000000025 /* Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000025 /* Resources/Assets.xcassets */; };
+		100000000000000000000026 /* Resources/Base.lproj/LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000026 /* Resources/Base.lproj/LaunchScreen.storyboard */; };
+		100000000000000000000027 /* Shared/RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000029 /* Shared/RemoteImageView.swift */; };
+		100000000000000000000028 /* Home/HomeDynamicItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000030 /* Home/HomeDynamicItem.swift */; };
+		100000000000000000000029 /* Home/HomeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000031 /* Home/HomeManager.swift */; };
+		100000000000000000000030 /* Home/HomeFeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000032 /* Home/HomeFeatureCell.swift */; };
+		100000000000000000000031 /* Home/HomeGuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000033 /* Home/HomeGuideCell.swift */; };
+		100000000000000000000032 /* Video/OriChatCatchFeedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000034 /* Video/OriChatCatchFeedModels.swift */; };
+		100000000000000000000033 /* Video/OriChatCatchFeedDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000035 /* Video/OriChatCatchFeedDecoder.swift */; };
+		100000000000000000000034 /* Video/OriChatCatchFeedGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000036 /* Video/OriChatCatchFeedGateway.swift */; };
+		100000000000000000000035 /* Video/OriChatCatchFeedNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000037 /* Video/OriChatCatchFeedNavigator.swift */; };
+		100000000000000000000036 /* Video/OriChatCatchFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000038 /* Video/OriChatCatchFeedViewModel.swift */; };
+		100000000000000000000037 /* Video/OriChatCatchUserStripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000039 /* Video/OriChatCatchUserStripCell.swift */; };
+		100000000000000000000038 /* Video/OriChatCatchVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000040 /* Video/OriChatCatchVideoCell.swift */; };
+		100000000000000000000040 /* ../Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000042 /* ../Network.swift */; };
+		100000000000000000000041 /* ../WebPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000043 /* ../WebPath.swift */; };
+		100000000000000000000042 /* Community/OriChatBuddyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000044 /* Community/OriChatBuddyModels.swift */; };
+		100000000000000000000043 /* Community/OriChatBuddyFixtureForge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000045 /* Community/OriChatBuddyFixtureForge.swift */; };
+		100000000000000000000044 /* Community/OriChatBuddyStateLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000046 /* Community/OriChatBuddyStateLedger.swift */; };
+		100000000000000000000045 /* Community/OriChatBuddyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000047 /* Community/OriChatBuddyViews.swift */; };
+		100000000000000000000046 /* Community/OriChatBuddyTripCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000048 /* Community/OriChatBuddyTripCardCell.swift */; };
+		100000000000000000000047 /* Community/OriChatBuddyFilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000049 /* Community/OriChatBuddyFilterSheet.swift */; };
+		100000000000000000000048 /* Community/OriChatBuddyAITipsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000050 /* Community/OriChatBuddyAITipsController.swift */; };
+		100000000000000000000049 /* Community/OriChatBuddyCreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000051 /* Community/OriChatBuddyCreateController.swift */; };
+		100000000000000000000050 /* Community/OriChatBuddyDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000052 /* Community/OriChatBuddyDetailController.swift */; };
+		100000000000000000000051 /* Community/Search/OriChatBuddySearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000053 /* Community/Search/OriChatBuddySearchController.swift */; };
+		100000000000000000000052 /* Community/Search/OriChatBuddySearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000054 /* Community/Search/OriChatBuddySearchViewModel.swift */; };
+		100000000000000000000053 /* Community/Search/OriChatBuddySearchIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000055 /* Community/Search/OriChatBuddySearchIndex.swift */; };
+		100000000000000000000054 /* Community/Search/OriChatBuddySearchMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000056 /* Community/Search/OriChatBuddySearchMemory.swift */; };
+		100000000000000000000055 /* Community/Search/OriChatBuddySearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000057 /* Community/Search/OriChatBuddySearchResultCell.swift */; };
+		100000000000000000000056 /* Community/Search/OriChatBuddySearchChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000058 /* Community/Search/OriChatBuddySearchChipView.swift */; };
+		100000000000000000000057 /* Community/Filter/OriChatBuddyFilterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000059 /* Community/Filter/OriChatBuddyFilterState.swift */; };
+		100000000000000000000058 /* Community/Filter/OriChatBuddyFilterEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000060 /* Community/Filter/OriChatBuddyFilterEngine.swift */; };
+		100000000000000000000059 /* Community/Filter/OriChatBuddyFilterChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000061 /* Community/Filter/OriChatBuddyFilterChipView.swift */; };
+		100000000000000000000060 /* Community/Filter/OriChatBuddyEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000062 /* Community/Filter/OriChatBuddyEmptyStateView.swift */; };
+		100000000000000000000061 /* Community/Filter/OriChatBuddySortSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000063 /* Community/Filter/OriChatBuddySortSheetController.swift */; };
+		100000000000000000000062 /* Community/Filter/OriChatBuddyFilterSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000064 /* Community/Filter/OriChatBuddyFilterSheetController.swift */; };
+		100000000000000000000063 /* Community/Publish/OriChatBuddyDraftLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000065 /* Community/Publish/OriChatBuddyDraftLedger.swift */; };
+		100000000000000000000064 /* Community/Publish/OriChatBuddyPublishControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000066 /* Community/Publish/OriChatBuddyPublishControls.swift */; };
+		100000000000000000000065 /* Community/Publish/OriChatBuddyPublishedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000067 /* Community/Publish/OriChatBuddyPublishedController.swift */; };
+		100000000000000000000066 /* Community/Publish/OriChatBuddyEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000068 /* Community/Publish/OriChatBuddyEditController.swift */; };
+		100000000000000000000067 /* Community/Publish/OriChatBuddyCancelSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000069 /* Community/Publish/OriChatBuddyCancelSheetController.swift */; };
+		100000000000000000000068 /* Community/Publish/OriChatBuddyTripCanceledController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000070 /* Community/Publish/OriChatBuddyTripCanceledController.swift */; };
+		100000000000000000000069 /* ProfileTrust/OriChatTrustProfileState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000071 /* ProfileTrust/OriChatTrustProfileState.swift */; };
+		100000000000000000000070 /* ProfileTrust/OriChatTrustReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000072 /* ProfileTrust/OriChatTrustReview.swift */; };
+		100000000000000000000071 /* ProfileTrust/OriChatTrustProfileDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000073 /* ProfileTrust/OriChatTrustProfileDecoder.swift */; };
+		100000000000000000000072 /* ProfileTrust/OriChatTrustProfileGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000074 /* ProfileTrust/OriChatTrustProfileGateway.swift */; };
+		100000000000000000000073 /* ProfileTrust/OriChatTrustProfileMetricsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000075 /* ProfileTrust/OriChatTrustProfileMetricsBuilder.swift */; };
+		100000000000000000000074 /* ProfileTrust/OriChatTrustAvatarPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000076 /* ProfileTrust/OriChatTrustAvatarPipeline.swift */; };
+		100000000000000000000075 /* ProfileTrust/OriChatTrustBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000077 /* ProfileTrust/OriChatTrustBadgeView.swift */; };
+		100000000000000000000076 /* ProfileTrust/OriChatTrustScoreCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000078 /* ProfileTrust/OriChatTrustScoreCardView.swift */; };
+		100000000000000000000077 /* ProfileTrust/OriChatTrustMetricTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000079 /* ProfileTrust/OriChatTrustMetricTileView.swift */; };
+		100000000000000000000078 /* ProfileTrust/OriChatTrustReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000080 /* ProfileTrust/OriChatTrustReviewCell.swift */; };
+		100000000000000000000079 /* ProfileTrust/OriChatTrustEmptyReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000081 /* ProfileTrust/OriChatTrustEmptyReviewView.swift */; };
+		100000000000000000000080 /* ProfileTrust/OriChatTrustProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000082 /* ProfileTrust/OriChatTrustProfileViewModel.swift */; };
+		100000000000000000000081 /* ProfileTrust/OriChatTrustProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000083 /* ProfileTrust/OriChatTrustProfileController.swift */; };
+		100000000000000000000082 /* Profile/OriChatCatchProfileModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000084 /* Profile/OriChatCatchProfileModels.swift */; };
+		100000000000000000000083 /* Profile/OriChatCatchProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000085 /* Profile/OriChatCatchProfileService.swift */; };
+		100000000000000000000084 /* Profile/OriChatCatchProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000086 /* Profile/OriChatCatchProfileViewModel.swift */; };
+		100000000000000000000085 /* Profile/OriChatCatchProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000087 /* Profile/OriChatCatchProfileHeaderView.swift */; };
+		100000000000000000000086 /* Profile/OriChatCatchWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000088 /* Profile/OriChatCatchWalletView.swift */; };
+		100000000000000000000087 /* Profile/OriChatCatchSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000089 /* Profile/OriChatCatchSegmentView.swift */; };
+		100000000000000000000088 /* Profile/OriChatCatchRecordCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000090 /* Profile/OriChatCatchRecordCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042830A92FDFF317000A059C /* rrrrr.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = rrrrr.storekit; sourceTree = "<group>"; };
+		200000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		200000000000000000000002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		200000000000000000000003 /* Shared/AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/AppConstants.swift; sourceTree = "<group>"; };
+		200000000000000000000004 /* Shared/UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shared/UIView+Layout.swift"; sourceTree = "<group>"; };
+		200000000000000000000005 /* Shared/GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/GradientButton.swift; sourceTree = "<group>"; };
+		200000000000000000000006 /* Shared/Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Toast.swift; sourceTree = "<group>"; };
+		200000000000000000000007 /* Auth/AuthModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth/AuthModels.swift; sourceTree = "<group>"; };
+		200000000000000000000008 /* Auth/AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth/AuthStore.swift; sourceTree = "<group>"; };
+		200000000000000000000009 /* Auth/AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth/AuthManager.swift; sourceTree = "<group>"; };
+		200000000000000000000010 /* Networking/NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking/NetworkService.swift; sourceTree = "<group>"; };
+		200000000000000000000011 /* Auth/AuthBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth/AuthBackgroundView.swift; sourceTree = "<group>"; };
+		200000000000000000000012 /* Auth/AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth/AuthTextField.swift; sourceTree = "<group>"; };
+		200000000000000000000013 /* Launch/LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch/LaunchViewController.swift; sourceTree = "<group>"; };
+		200000000000000000000014 /* Auth/AuthEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth/AuthEntryViewController.swift; sourceTree = "<group>"; };
+		200000000000000000000015 /* Auth/LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth/LoginViewController.swift; sourceTree = "<group>"; };
+		200000000000000000000016 /* Auth/SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth/SignUpViewController.swift; sourceTree = "<group>"; };
+		200000000000000000000017 /* Main/MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main/MainTabBarController.swift; sourceTree = "<group>"; };
+		200000000000000000000018 /* Main/BaseModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main/BaseModuleViewController.swift; sourceTree = "<group>"; };
+		200000000000000000000019 /* Home/HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home/HomeViewController.swift; sourceTree = "<group>"; };
+		200000000000000000000020 /* Community/CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/CommunityViewController.swift; sourceTree = "<group>"; };
+		200000000000000000000021 /* Video/VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video/VideoViewController.swift; sourceTree = "<group>"; };
+		200000000000000000000022 /* Profile/ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile/ProfileViewController.swift; sourceTree = "<group>"; };
+		200000000000000000000023 /* Shared/WebRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/WebRoute.swift; sourceTree = "<group>"; };
+		200000000000000000000024 /* Shared/WebPortalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/WebPortalViewController.swift; sourceTree = "<group>"; };
+		200000000000000000000025 /* Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		200000000000000000000026 /* Resources/Base.lproj/LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Resources/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		200000000000000000000027 /* Resources/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Resources/Info.plist; sourceTree = "<group>"; };
+		200000000000000000000028 /* OriChatAnglers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriChatAnglers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000029 /* Shared/RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/RemoteImageView.swift; sourceTree = "<group>"; };
+		200000000000000000000030 /* Home/HomeDynamicItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home/HomeDynamicItem.swift; sourceTree = "<group>"; };
+		200000000000000000000031 /* Home/HomeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home/HomeManager.swift; sourceTree = "<group>"; };
+		200000000000000000000032 /* Home/HomeFeatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home/HomeFeatureCell.swift; sourceTree = "<group>"; };
+		200000000000000000000033 /* Home/HomeGuideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home/HomeGuideCell.swift; sourceTree = "<group>"; };
+		200000000000000000000034 /* Video/OriChatCatchFeedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video/OriChatCatchFeedModels.swift; sourceTree = "<group>"; };
+		200000000000000000000035 /* Video/OriChatCatchFeedDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video/OriChatCatchFeedDecoder.swift; sourceTree = "<group>"; };
+		200000000000000000000036 /* Video/OriChatCatchFeedGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video/OriChatCatchFeedGateway.swift; sourceTree = "<group>"; };
+		200000000000000000000037 /* Video/OriChatCatchFeedNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video/OriChatCatchFeedNavigator.swift; sourceTree = "<group>"; };
+		200000000000000000000038 /* Video/OriChatCatchFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video/OriChatCatchFeedViewModel.swift; sourceTree = "<group>"; };
+		200000000000000000000039 /* Video/OriChatCatchUserStripCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video/OriChatCatchUserStripCell.swift; sourceTree = "<group>"; };
+		200000000000000000000040 /* Video/OriChatCatchVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video/OriChatCatchVideoCell.swift; sourceTree = "<group>"; };
+		200000000000000000000042 /* ../Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../Network.swift; sourceTree = "<group>"; };
+		200000000000000000000043 /* ../WebPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../WebPath.swift; sourceTree = "<group>"; };
+		200000000000000000000044 /* Community/OriChatBuddyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/OriChatBuddyModels.swift; sourceTree = "<group>"; };
+		200000000000000000000045 /* Community/OriChatBuddyFixtureForge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/OriChatBuddyFixtureForge.swift; sourceTree = "<group>"; };
+		200000000000000000000046 /* Community/OriChatBuddyStateLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/OriChatBuddyStateLedger.swift; sourceTree = "<group>"; };
+		200000000000000000000047 /* Community/OriChatBuddyViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/OriChatBuddyViews.swift; sourceTree = "<group>"; };
+		200000000000000000000048 /* Community/OriChatBuddyTripCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/OriChatBuddyTripCardCell.swift; sourceTree = "<group>"; };
+		200000000000000000000049 /* Community/OriChatBuddyFilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/OriChatBuddyFilterSheet.swift; sourceTree = "<group>"; };
+		200000000000000000000050 /* Community/OriChatBuddyAITipsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/OriChatBuddyAITipsController.swift; sourceTree = "<group>"; };
+		200000000000000000000051 /* Community/OriChatBuddyCreateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/OriChatBuddyCreateController.swift; sourceTree = "<group>"; };
+		200000000000000000000052 /* Community/OriChatBuddyDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/OriChatBuddyDetailController.swift; sourceTree = "<group>"; };
+		200000000000000000000053 /* Community/Search/OriChatBuddySearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Search/OriChatBuddySearchController.swift; sourceTree = "<group>"; };
+		200000000000000000000054 /* Community/Search/OriChatBuddySearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Search/OriChatBuddySearchViewModel.swift; sourceTree = "<group>"; };
+		200000000000000000000055 /* Community/Search/OriChatBuddySearchIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Search/OriChatBuddySearchIndex.swift; sourceTree = "<group>"; };
+		200000000000000000000056 /* Community/Search/OriChatBuddySearchMemory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Search/OriChatBuddySearchMemory.swift; sourceTree = "<group>"; };
+		200000000000000000000057 /* Community/Search/OriChatBuddySearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Search/OriChatBuddySearchResultCell.swift; sourceTree = "<group>"; };
+		200000000000000000000058 /* Community/Search/OriChatBuddySearchChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Search/OriChatBuddySearchChipView.swift; sourceTree = "<group>"; };
+		200000000000000000000059 /* Community/Filter/OriChatBuddyFilterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Filter/OriChatBuddyFilterState.swift; sourceTree = "<group>"; };
+		200000000000000000000060 /* Community/Filter/OriChatBuddyFilterEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Filter/OriChatBuddyFilterEngine.swift; sourceTree = "<group>"; };
+		200000000000000000000061 /* Community/Filter/OriChatBuddyFilterChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Filter/OriChatBuddyFilterChipView.swift; sourceTree = "<group>"; };
+		200000000000000000000062 /* Community/Filter/OriChatBuddyEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Filter/OriChatBuddyEmptyStateView.swift; sourceTree = "<group>"; };
+		200000000000000000000063 /* Community/Filter/OriChatBuddySortSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Filter/OriChatBuddySortSheetController.swift; sourceTree = "<group>"; };
+		200000000000000000000064 /* Community/Filter/OriChatBuddyFilterSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Filter/OriChatBuddyFilterSheetController.swift; sourceTree = "<group>"; };
+		200000000000000000000065 /* Community/Publish/OriChatBuddyDraftLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Publish/OriChatBuddyDraftLedger.swift; sourceTree = "<group>"; };
+		200000000000000000000066 /* Community/Publish/OriChatBuddyPublishControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Publish/OriChatBuddyPublishControls.swift; sourceTree = "<group>"; };
+		200000000000000000000067 /* Community/Publish/OriChatBuddyPublishedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Publish/OriChatBuddyPublishedController.swift; sourceTree = "<group>"; };
+		200000000000000000000068 /* Community/Publish/OriChatBuddyEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Publish/OriChatBuddyEditController.swift; sourceTree = "<group>"; };
+		200000000000000000000069 /* Community/Publish/OriChatBuddyCancelSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Publish/OriChatBuddyCancelSheetController.swift; sourceTree = "<group>"; };
+		200000000000000000000070 /* Community/Publish/OriChatBuddyTripCanceledController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community/Publish/OriChatBuddyTripCanceledController.swift; sourceTree = "<group>"; };
+		200000000000000000000071 /* ProfileTrust/OriChatTrustProfileState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrust/OriChatTrustProfileState.swift; sourceTree = "<group>"; };
+		200000000000000000000072 /* ProfileTrust/OriChatTrustReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrust/OriChatTrustReview.swift; sourceTree = "<group>"; };
+		200000000000000000000073 /* ProfileTrust/OriChatTrustProfileDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrust/OriChatTrustProfileDecoder.swift; sourceTree = "<group>"; };
+		200000000000000000000074 /* ProfileTrust/OriChatTrustProfileGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrust/OriChatTrustProfileGateway.swift; sourceTree = "<group>"; };
+		200000000000000000000075 /* ProfileTrust/OriChatTrustProfileMetricsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrust/OriChatTrustProfileMetricsBuilder.swift; sourceTree = "<group>"; };
+		200000000000000000000076 /* ProfileTrust/OriChatTrustAvatarPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrust/OriChatTrustAvatarPipeline.swift; sourceTree = "<group>"; };
+		200000000000000000000077 /* ProfileTrust/OriChatTrustBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrust/OriChatTrustBadgeView.swift; sourceTree = "<group>"; };
+		200000000000000000000078 /* ProfileTrust/OriChatTrustScoreCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrust/OriChatTrustScoreCardView.swift; sourceTree = "<group>"; };
+		200000000000000000000079 /* ProfileTrust/OriChatTrustMetricTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrust/OriChatTrustMetricTileView.swift; sourceTree = "<group>"; };
+		200000000000000000000080 /* ProfileTrust/OriChatTrustReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrust/OriChatTrustReviewCell.swift; sourceTree = "<group>"; };
+		200000000000000000000081 /* ProfileTrust/OriChatTrustEmptyReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrust/OriChatTrustEmptyReviewView.swift; sourceTree = "<group>"; };
+		200000000000000000000082 /* ProfileTrust/OriChatTrustProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrust/OriChatTrustProfileViewModel.swift; sourceTree = "<group>"; };
+		200000000000000000000083 /* ProfileTrust/OriChatTrustProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrust/OriChatTrustProfileController.swift; sourceTree = "<group>"; };
+		200000000000000000000084 /* Profile/OriChatCatchProfileModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile/OriChatCatchProfileModels.swift; sourceTree = "<group>"; };
+		200000000000000000000085 /* Profile/OriChatCatchProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile/OriChatCatchProfileService.swift; sourceTree = "<group>"; };
+		200000000000000000000086 /* Profile/OriChatCatchProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile/OriChatCatchProfileViewModel.swift; sourceTree = "<group>"; };
+		200000000000000000000087 /* Profile/OriChatCatchProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile/OriChatCatchProfileHeaderView.swift; sourceTree = "<group>"; };
+		200000000000000000000088 /* Profile/OriChatCatchWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile/OriChatCatchWalletView.swift; sourceTree = "<group>"; };
+		200000000000000000000089 /* Profile/OriChatCatchSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile/OriChatCatchSegmentView.swift; sourceTree = "<group>"; };
+		200000000000000000000090 /* Profile/OriChatCatchRecordCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile/OriChatCatchRecordCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				400000000000000000000002 /* OriChatAnglers */,
+				400000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		400000000000000000000002 /* OriChatAnglers */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000001 /* AppDelegate.swift */,
+				200000000000000000000002 /* SceneDelegate.swift */,
+				200000000000000000000003 /* Shared/AppConstants.swift */,
+				200000000000000000000004 /* Shared/UIView+Layout.swift */,
+				200000000000000000000005 /* Shared/GradientButton.swift */,
+				200000000000000000000006 /* Shared/Toast.swift */,
+				200000000000000000000029 /* Shared/RemoteImageView.swift */,
+				200000000000000000000007 /* Auth/AuthModels.swift */,
+				200000000000000000000008 /* Auth/AuthStore.swift */,
+				200000000000000000000009 /* Auth/AuthManager.swift */,
+				200000000000000000000010 /* Networking/NetworkService.swift */,
+				200000000000000000000011 /* Auth/AuthBackgroundView.swift */,
+				200000000000000000000012 /* Auth/AuthTextField.swift */,
+				200000000000000000000013 /* Launch/LaunchViewController.swift */,
+				200000000000000000000014 /* Auth/AuthEntryViewController.swift */,
+				200000000000000000000015 /* Auth/LoginViewController.swift */,
+				200000000000000000000016 /* Auth/SignUpViewController.swift */,
+				200000000000000000000017 /* Main/MainTabBarController.swift */,
+				200000000000000000000018 /* Main/BaseModuleViewController.swift */,
+				200000000000000000000019 /* Home/HomeViewController.swift */,
+				200000000000000000000030 /* Home/HomeDynamicItem.swift */,
+				200000000000000000000031 /* Home/HomeManager.swift */,
+				200000000000000000000032 /* Home/HomeFeatureCell.swift */,
+				200000000000000000000033 /* Home/HomeGuideCell.swift */,
+				200000000000000000000020 /* Community/CommunityViewController.swift */,
+				200000000000000000000021 /* Video/VideoViewController.swift */,
+				200000000000000000000034 /* Video/OriChatCatchFeedModels.swift */,
+				200000000000000000000035 /* Video/OriChatCatchFeedDecoder.swift */,
+				200000000000000000000036 /* Video/OriChatCatchFeedGateway.swift */,
+				200000000000000000000037 /* Video/OriChatCatchFeedNavigator.swift */,
+				200000000000000000000038 /* Video/OriChatCatchFeedViewModel.swift */,
+				200000000000000000000039 /* Video/OriChatCatchUserStripCell.swift */,
+				200000000000000000000040 /* Video/OriChatCatchVideoCell.swift */,
+				200000000000000000000022 /* Profile/ProfileViewController.swift */,
+				200000000000000000000084 /* Profile/OriChatCatchProfileModels.swift */,
+				200000000000000000000085 /* Profile/OriChatCatchProfileService.swift */,
+				200000000000000000000086 /* Profile/OriChatCatchProfileViewModel.swift */,
+				200000000000000000000087 /* Profile/OriChatCatchProfileHeaderView.swift */,
+				200000000000000000000088 /* Profile/OriChatCatchWalletView.swift */,
+				200000000000000000000089 /* Profile/OriChatCatchSegmentView.swift */,
+				200000000000000000000090 /* Profile/OriChatCatchRecordCardView.swift */,
+				200000000000000000000044 /* Community/OriChatBuddyModels.swift */,
+				200000000000000000000045 /* Community/OriChatBuddyFixtureForge.swift */,
+				200000000000000000000046 /* Community/OriChatBuddyStateLedger.swift */,
+				200000000000000000000047 /* Community/OriChatBuddyViews.swift */,
+				200000000000000000000048 /* Community/OriChatBuddyTripCardCell.swift */,
+				200000000000000000000049 /* Community/OriChatBuddyFilterSheet.swift */,
+				200000000000000000000050 /* Community/OriChatBuddyAITipsController.swift */,
+				200000000000000000000051 /* Community/OriChatBuddyCreateController.swift */,
+				200000000000000000000052 /* Community/OriChatBuddyDetailController.swift */,
+				200000000000000000000053 /* Community/Search/OriChatBuddySearchController.swift */,
+				200000000000000000000054 /* Community/Search/OriChatBuddySearchViewModel.swift */,
+				200000000000000000000055 /* Community/Search/OriChatBuddySearchIndex.swift */,
+				200000000000000000000056 /* Community/Search/OriChatBuddySearchMemory.swift */,
+				200000000000000000000057 /* Community/Search/OriChatBuddySearchResultCell.swift */,
+				200000000000000000000058 /* Community/Search/OriChatBuddySearchChipView.swift */,
+				200000000000000000000059 /* Community/Filter/OriChatBuddyFilterState.swift */,
+				200000000000000000000060 /* Community/Filter/OriChatBuddyFilterEngine.swift */,
+				200000000000000000000061 /* Community/Filter/OriChatBuddyFilterChipView.swift */,
+				200000000000000000000062 /* Community/Filter/OriChatBuddyEmptyStateView.swift */,
+				200000000000000000000063 /* Community/Filter/OriChatBuddySortSheetController.swift */,
+				200000000000000000000064 /* Community/Filter/OriChatBuddyFilterSheetController.swift */,
+				200000000000000000000065 /* Community/Publish/OriChatBuddyDraftLedger.swift */,
+				200000000000000000000066 /* Community/Publish/OriChatBuddyPublishControls.swift */,
+				200000000000000000000067 /* Community/Publish/OriChatBuddyPublishedController.swift */,
+				200000000000000000000068 /* Community/Publish/OriChatBuddyEditController.swift */,
+				200000000000000000000069 /* Community/Publish/OriChatBuddyCancelSheetController.swift */,
+				200000000000000000000070 /* Community/Publish/OriChatBuddyTripCanceledController.swift */,
+				200000000000000000000071 /* ProfileTrust/OriChatTrustProfileState.swift */,
+				200000000000000000000072 /* ProfileTrust/OriChatTrustReview.swift */,
+				200000000000000000000073 /* ProfileTrust/OriChatTrustProfileDecoder.swift */,
+				200000000000000000000074 /* ProfileTrust/OriChatTrustProfileGateway.swift */,
+				200000000000000000000075 /* ProfileTrust/OriChatTrustProfileMetricsBuilder.swift */,
+				200000000000000000000076 /* ProfileTrust/OriChatTrustAvatarPipeline.swift */,
+				200000000000000000000077 /* ProfileTrust/OriChatTrustBadgeView.swift */,
+				200000000000000000000078 /* ProfileTrust/OriChatTrustScoreCardView.swift */,
+				200000000000000000000079 /* ProfileTrust/OriChatTrustMetricTileView.swift */,
+				200000000000000000000080 /* ProfileTrust/OriChatTrustReviewCell.swift */,
+				200000000000000000000081 /* ProfileTrust/OriChatTrustEmptyReviewView.swift */,
+				200000000000000000000082 /* ProfileTrust/OriChatTrustProfileViewModel.swift */,
+				200000000000000000000083 /* ProfileTrust/OriChatTrustProfileController.swift */,
+				200000000000000000000023 /* Shared/WebRoute.swift */,
+				200000000000000000000024 /* Shared/WebPortalViewController.swift */,
+				200000000000000000000042 /* ../Network.swift */,
+				200000000000000000000043 /* ../WebPath.swift */,
+				200000000000000000000025 /* Resources/Assets.xcassets */,
+				200000000000000000000026 /* Resources/Base.lproj/LaunchScreen.storyboard */,
+				200000000000000000000027 /* Resources/Info.plist */,
+				042830A92FDFF317000A059C /* rrrrr.storekit */,
+			);
+			path = OriChatAnglers;
+			sourceTree = "<group>";
+		};
+		400000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000028 /* OriChatAnglers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		500000000000000000000001 /* OriChatAnglers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900000000000000000000002 /* Build configuration list for PBXNativeTarget "OriChatAnglers" */;
+			buildPhases = (
+				600000000000000000000001 /* Sources */,
+				300000000000000000000001 /* Frameworks */,
+				600000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OriChatAnglers;
+			productName = OriChatAnglers;
+			productReference = 200000000000000000000028 /* OriChatAnglers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		700000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					500000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 900000000000000000000001 /* Build configuration list for PBXProject "OriChatAnglers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 400000000000000000000001;
+			productRefGroup = 400000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				500000000000000000000001 /* OriChatAnglers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		600000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042830AA2FDFF317000A059C /* rrrrr.storekit in Resources */,
+				100000000000000000000025 /* Resources/Assets.xcassets in Resources */,
+				100000000000000000000026 /* Resources/Base.lproj/LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		600000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000001 /* AppDelegate.swift in Sources */,
+				100000000000000000000002 /* SceneDelegate.swift in Sources */,
+				100000000000000000000003 /* Shared/AppConstants.swift in Sources */,
+				100000000000000000000004 /* Shared/UIView+Layout.swift in Sources */,
+				100000000000000000000005 /* Shared/GradientButton.swift in Sources */,
+				100000000000000000000006 /* Shared/Toast.swift in Sources */,
+				100000000000000000000007 /* Auth/AuthModels.swift in Sources */,
+				100000000000000000000008 /* Auth/AuthStore.swift in Sources */,
+				100000000000000000000009 /* Auth/AuthManager.swift in Sources */,
+				100000000000000000000010 /* Networking/NetworkService.swift in Sources */,
+				100000000000000000000011 /* Auth/AuthBackgroundView.swift in Sources */,
+				100000000000000000000012 /* Auth/AuthTextField.swift in Sources */,
+				100000000000000000000013 /* Launch/LaunchViewController.swift in Sources */,
+				100000000000000000000014 /* Auth/AuthEntryViewController.swift in Sources */,
+				100000000000000000000015 /* Auth/LoginViewController.swift in Sources */,
+				100000000000000000000016 /* Auth/SignUpViewController.swift in Sources */,
+				100000000000000000000017 /* Main/MainTabBarController.swift in Sources */,
+				100000000000000000000018 /* Main/BaseModuleViewController.swift in Sources */,
+				100000000000000000000019 /* Home/HomeViewController.swift in Sources */,
+				100000000000000000000020 /* Community/CommunityViewController.swift in Sources */,
+				100000000000000000000021 /* Video/VideoViewController.swift in Sources */,
+				100000000000000000000022 /* Profile/ProfileViewController.swift in Sources */,
+				100000000000000000000023 /* Shared/WebRoute.swift in Sources */,
+				100000000000000000000024 /* Shared/WebPortalViewController.swift in Sources */,
+				100000000000000000000027 /* Shared/RemoteImageView.swift in Sources */,
+				100000000000000000000028 /* Home/HomeDynamicItem.swift in Sources */,
+				100000000000000000000029 /* Home/HomeManager.swift in Sources */,
+				100000000000000000000030 /* Home/HomeFeatureCell.swift in Sources */,
+				100000000000000000000031 /* Home/HomeGuideCell.swift in Sources */,
+				100000000000000000000032 /* Video/OriChatCatchFeedModels.swift in Sources */,
+				100000000000000000000033 /* Video/OriChatCatchFeedDecoder.swift in Sources */,
+				100000000000000000000034 /* Video/OriChatCatchFeedGateway.swift in Sources */,
+				100000000000000000000035 /* Video/OriChatCatchFeedNavigator.swift in Sources */,
+				100000000000000000000036 /* Video/OriChatCatchFeedViewModel.swift in Sources */,
+				100000000000000000000037 /* Video/OriChatCatchUserStripCell.swift in Sources */,
+				100000000000000000000038 /* Video/OriChatCatchVideoCell.swift in Sources */,
+				100000000000000000000040 /* ../Network.swift in Sources */,
+				100000000000000000000041 /* ../WebPath.swift in Sources */,
+				100000000000000000000042 /* Community/OriChatBuddyModels.swift in Sources */,
+				100000000000000000000043 /* Community/OriChatBuddyFixtureForge.swift in Sources */,
+				100000000000000000000044 /* Community/OriChatBuddyStateLedger.swift in Sources */,
+				100000000000000000000045 /* Community/OriChatBuddyViews.swift in Sources */,
+				100000000000000000000046 /* Community/OriChatBuddyTripCardCell.swift in Sources */,
+				100000000000000000000047 /* Community/OriChatBuddyFilterSheet.swift in Sources */,
+				100000000000000000000048 /* Community/OriChatBuddyAITipsController.swift in Sources */,
+				100000000000000000000049 /* Community/OriChatBuddyCreateController.swift in Sources */,
+				100000000000000000000050 /* Community/OriChatBuddyDetailController.swift in Sources */,
+				100000000000000000000051 /* Community/Search/OriChatBuddySearchController.swift in Sources */,
+				100000000000000000000052 /* Community/Search/OriChatBuddySearchViewModel.swift in Sources */,
+				100000000000000000000053 /* Community/Search/OriChatBuddySearchIndex.swift in Sources */,
+				100000000000000000000054 /* Community/Search/OriChatBuddySearchMemory.swift in Sources */,
+				100000000000000000000055 /* Community/Search/OriChatBuddySearchResultCell.swift in Sources */,
+				100000000000000000000056 /* Community/Search/OriChatBuddySearchChipView.swift in Sources */,
+				100000000000000000000057 /* Community/Filter/OriChatBuddyFilterState.swift in Sources */,
+				100000000000000000000058 /* Community/Filter/OriChatBuddyFilterEngine.swift in Sources */,
+				100000000000000000000059 /* Community/Filter/OriChatBuddyFilterChipView.swift in Sources */,
+				100000000000000000000060 /* Community/Filter/OriChatBuddyEmptyStateView.swift in Sources */,
+				100000000000000000000061 /* Community/Filter/OriChatBuddySortSheetController.swift in Sources */,
+				100000000000000000000062 /* Community/Filter/OriChatBuddyFilterSheetController.swift in Sources */,
+				100000000000000000000063 /* Community/Publish/OriChatBuddyDraftLedger.swift in Sources */,
+				100000000000000000000064 /* Community/Publish/OriChatBuddyPublishControls.swift in Sources */,
+				100000000000000000000065 /* Community/Publish/OriChatBuddyPublishedController.swift in Sources */,
+				100000000000000000000066 /* Community/Publish/OriChatBuddyEditController.swift in Sources */,
+				100000000000000000000067 /* Community/Publish/OriChatBuddyCancelSheetController.swift in Sources */,
+				100000000000000000000068 /* Community/Publish/OriChatBuddyTripCanceledController.swift in Sources */,
+				100000000000000000000069 /* ProfileTrust/OriChatTrustProfileState.swift in Sources */,
+				100000000000000000000070 /* ProfileTrust/OriChatTrustReview.swift in Sources */,
+				100000000000000000000071 /* ProfileTrust/OriChatTrustProfileDecoder.swift in Sources */,
+				100000000000000000000072 /* ProfileTrust/OriChatTrustProfileGateway.swift in Sources */,
+				100000000000000000000073 /* ProfileTrust/OriChatTrustProfileMetricsBuilder.swift in Sources */,
+				100000000000000000000074 /* ProfileTrust/OriChatTrustAvatarPipeline.swift in Sources */,
+				100000000000000000000075 /* ProfileTrust/OriChatTrustBadgeView.swift in Sources */,
+				100000000000000000000076 /* ProfileTrust/OriChatTrustScoreCardView.swift in Sources */,
+				100000000000000000000077 /* ProfileTrust/OriChatTrustMetricTileView.swift in Sources */,
+				100000000000000000000078 /* ProfileTrust/OriChatTrustReviewCell.swift in Sources */,
+				100000000000000000000079 /* ProfileTrust/OriChatTrustEmptyReviewView.swift in Sources */,
+				100000000000000000000080 /* ProfileTrust/OriChatTrustProfileViewModel.swift in Sources */,
+				100000000000000000000081 /* ProfileTrust/OriChatTrustProfileController.swift in Sources */,
+				100000000000000000000082 /* Profile/OriChatCatchProfileModels.swift in Sources */,
+				100000000000000000000083 /* Profile/OriChatCatchProfileService.swift in Sources */,
+				100000000000000000000084 /* Profile/OriChatCatchProfileViewModel.swift in Sources */,
+				100000000000000000000085 /* Profile/OriChatCatchProfileHeaderView.swift in Sources */,
+				100000000000000000000086 /* Profile/OriChatCatchWalletView.swift in Sources */,
+				100000000000000000000087 /* Profile/OriChatCatchSegmentView.swift in Sources */,
+				100000000000000000000088 /* Profile/OriChatCatchRecordCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		800000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		800000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		800000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OriChatAnglers/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OriChat;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orichat.anglers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		800000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OriChatAnglers/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OriChat;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orichat.anglers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900000000000000000000001 /* Build configuration list for PBXProject "OriChatAnglers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800000000000000000000001 /* Debug */,
+				800000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900000000000000000000002 /* Build configuration list for PBXNativeTarget "OriChatAnglers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800000000000000000000003 /* Debug */,
+				800000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 700000000000000000000001 /* Project object */;
+}

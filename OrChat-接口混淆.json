@@ -1,0 +1,559 @@
+[
+  {
+    "customPath": "/mrorlhygsz/tvezyfttvx",
+    "resReplace": {
+      "anglerOria": "userId",
+      "castingOria": "userName",
+      "hooksetOria": "userLocation",
+      "leaderOria": "userPassword",
+      "crankbaitOria": "userBalance",
+      "swivelOria": "userGender",
+      "sinkerOria": "userBirthday",
+      "trollingOria": "userStatus",
+      "tackleOria": "userBrief",
+      "baitcastingOria": "userFans",
+      "bobberOria": "userEmail",
+      "strikeOria": "userVipStatus",
+      "flyfishingOria": "userAttention",
+      "spinnerbaitOria": "userType",
+      "popperOria": "bundleId",
+      "softplasticOria": "createUserId",
+      "monofilamentOria": "userFriends",
+      "reelOria": "userImgUrl",
+      "nibbleOria": "vipExpireTime",
+      "jiggingOria": "equipmentNo",
+      "fluorocarbonOria": "userWeight",
+      "braidedlineOria": "userHeight"
+    },
+    "reqReplace": {
+      "lureOria": "bundleId"
+    },
+    "systemPath": "/sj/user/selectUserIndexList"
+  },
+  {
+    "customPath": "/ejadqz/jwzonoxyvqwztwr",
+    "resReplace": {
+      "sizeboundOria": "createDate",
+      "baglimitOria": "bundleId",
+      "dropoffOria": "dynamicContent",
+      "schoolingOria": "commentNum",
+      "conservationOria": "attentionFlag",
+      "ecosystemOria": "commentVoList",
+      "overfishingOria": "dynamicImgList",
+      "shorelineOria": "fileTimes",
+      "sandbarOria": "dynamicId",
+      "habitatOria": "storeFlag",
+      "dockOria": "dynamicType",
+      "feedingfrenzyOria": "forwardNum",
+      "sustainableOria": "dynamicImgList",
+      "thermoclineOria": "userImgUrl",
+      "spawningOria": "praiseNum",
+      "pierOria": "friendFlag",
+      "lakefrontOria": "videoImgUrl",
+      "reefOria": "dynamicTitle",
+      "catchandreleaseOria": "storeNum",
+      "commentVoList": {
+        "headwaterOria": "beReplyCommentId",
+        "riparianOria": "replyUserName",
+        "biodiversityOria": "commentId",
+        "lagoonOria": "beReplyUserName",
+        "marshOria": "replyContent",
+        "tributaryOria": "bundleId",
+        "marineOria": "replyUserId",
+        "swampOria": "praiseNum",
+        "bayouOria": "beReplyUserId",
+        "aquaticOria": "dynamicId",
+        "wetlandOria": "replyUserImgUrl",
+        "reservoirOria": "beReplyContent"
+      },
+      "riverbedOria": "dynamicClassify",
+      "shallowsOria": "userId",
+      "deepwaterOria": "userName"
+    },
+    "reqReplace": {
+      "estuaryOria": "selectVersion",
+      "saltwaterOria": "selectType",
+      "tidelineOria": "current",
+      "currentOria": "size",
+      "mangroveOria": "dynamicClassify",
+      "breakwaterOria": "userId",
+      "freshwaterOria": "bundleId",
+      "backwaterOria": "dynamicType"
+    },
+    "systemPath": "/sj/dynamic/selectDynamicList"
+  },
+  {
+    "customPath": "/nxodsoz/hxidvelphlrqllh",
+    "reqReplace": {
+      "kayakOria": "dynamicUserId",
+      "jettyOria": "dynamicId",
+      "wharfOria": "version"
+    },
+    "systemPath": "/sj/dynamic/updateDynamicStore"
+  },
+  {
+    "customPath": "/kxymwaz/tnrioxfm",
+    "reqReplace": {
+      "sonarOria": "version",
+      "pontoonOria": "beHandleUserImg",
+      "canoeOria": "beHandleUserId",
+      "skiffOria": "beHandleUserName",
+      "outboardOria": "hanldeType",
+      "trollingmotorOria": "dynamicId"
+    },
+    "systemPath": "/sj/user/updateUserRelation"
+  },
+  {
+    "customPath": "/bsjnxqsyxdxuhz/qwfkpnw",
+    "resReplace": {
+      "gpsplotterOria": "messageUserVoList",
+      "messageUserVoList": {
+        "tidetableOria": "sendUserName",
+        "barometerOria": "title",
+        "bathymetryOria": "receiveUserImg",
+        "lowtideOria": "createDate",
+        "moonphaseOria": "sendUserId",
+        "slackwaterOria": "readFlag",
+        "topographyOria": "receiveUserName",
+        "solunarOria": "content",
+        "highwaterOria": "sendUserImgUrl",
+        "waypointOria": "receiveUserId",
+        "navigationOria": "messageId"
+      }
+    },
+    "reqReplace": {
+      "fishfinderOria": "bundleId",
+      "transducerOria": "receiveUserId"
+    },
+    "systemPath": "/sj/message/selectMessageInfo"
+  },
+  {
+    "customPath": "/xgmkmecdknakqrz/mcyvmcsh",
+    "resReplace": {
+      "crabOria": "userDynamicVoList",
+      "wormOria": "userFriends",
+      "shrimpOria": "userHeight",
+      "jerkbaitOria": "userImgList",
+      "crustaceanOria": "userImgUrl",
+      "bladebaitOria": "frameId",
+      "frogbaitOria": "likeNum",
+      "shadOria": "vipExpireTime",
+      "baitfishOria": "userBirthday",
+      "algaeOria": "userId",
+      "molluskOria": "userEmail",
+      "maggotOria": "userFans",
+      "propbaitOria": "userFrameImg",
+      "chuggerOria": "labelList",
+      "spoonlureOria": "friendFlag",
+      "stickbaitOria": "userImgList",
+      "anchovyOria": "userGender",
+      "crayfishOria": "attentionFlag",
+      "prawnOria": "userWeight",
+      "cricketOria": "userAttention",
+      "sardineOria": "userLocation",
+      "userDynamicVoList": {
+        "sizeboundOria": "createDate",
+        "baglimitOria": "bundleId",
+        "dropoffOria": "dynamicContent",
+        "schoolingOria": "commentNum",
+        "conservationOria": "attentionFlag",
+        "ecosystemOria": "commentVoList",
+        "overfishingOria": "dynamicImgList",
+        "shorelineOria": "fileTimes",
+        "sandbarOria": "dynamicId",
+        "habitatOria": "storeFlag",
+        "dockOria": "dynamicType",
+        "feedingfrenzyOria": "forwardNum",
+        "sustainableOria": "dynamicImgList",
+        "thermoclineOria": "userImgUrl",
+        "spawningOria": "praiseNum",
+        "pierOria": "friendFlag",
+        "lakefrontOria": "videoImgUrl",
+        "reefOria": "dynamicTitle",
+        "catchandreleaseOria": "storeNum",
+        "commentVoList": {
+          "headwaterOria": "beReplyCommentId",
+          "riparianOria": "replyUserName",
+          "biodiversityOria": "commentId",
+          "lagoonOria": "beReplyUserName",
+          "marshOria": "replyContent",
+          "tributaryOria": "bundleId",
+          "marineOria": "replyUserId",
+          "swampOria": "praiseNum",
+          "bayouOria": "beReplyUserId",
+          "aquaticOria": "dynamicId",
+          "wetlandOria": "replyUserImgUrl",
+          "reservoirOria": "beReplyContent"
+        },
+        "riverbedOria": "dynamicClassify",
+        "shallowsOria": "userId",
+        "deepwaterOria": "userName"
+      },
+      "planktonOria": "userName",
+      "labelList": {
+        "buzzbaitOria": "labelId",
+        "walkerbaitOria": "userLabelId",
+        "jigheadOria": "userId",
+        "skirtedjigOria": "labelName",
+        "swimbaitOria": "sort",
+        "chatterbaitOria": "labelLog"
+      },
+      "grasshopperOria": "historyNum",
+      "minnowOria": "userBrief"
+    },
+    "reqReplace": {
+      "undertowOria": "userId",
+      "whirlpoolOria": "version"
+    },
+    "systemPath": "/sj/user/selectUserInfo"
+  },
+  {
+    "customPath": "/feptoduvcljynz/nmyktgyu",
+    "resReplace": {
+      "liplesscrankOria": "userId",
+      "albrightknotOria": "userType",
+      "popperflyOria": "vipExpireTime",
+      "loopknotOria": "userHeight",
+      "hairjigOria": "userName",
+      "clinchknotOria": "token",
+      "streamerOria": "userBrief",
+      "wetflyOria": "userLocation",
+      "bloodknotOria": "userStatus",
+      "palomarknotOria": "bundleId",
+      "fgknotOria": "userWeight",
+      "featherjigOria": "userImgUrl",
+      "nymphOria": "userBirthday",
+      "dryflyOria": "userGender",
+      "leaderknotOria": "equipmentNo",
+      "flytyingOria": "userEmail"
+    },
+    "reqReplace": {},
+    "systemPath": "/sj/user/getUseInfo"
+  },
+  {
+    "customPath": "/zcargbcnpyoz/qzbdjyxqgl",
+    "reqReplace": {},
+    "systemPath": "/sj/user/selectUserBalance"
+  },
+  {
+    "customPath": "/etdkdgpbkz/uancm",
+    "resReplace": {
+      "liplesscrankOria": "userId",
+      "albrightknotOria": "userType",
+      "popperflyOria": "vipExpireTime",
+      "loopknotOria": "userHeight",
+      "hairjigOria": "userName",
+      "clinchknotOria": "token",
+      "streamerOria": "userBrief",
+      "wetflyOria": "userLocation",
+      "bloodknotOria": "userStatus",
+      "palomarknotOria": "bundleId",
+      "fgknotOria": "userWeight",
+      "featherjigOria": "userImgUrl",
+      "nymphOria": "userBirthday",
+      "dryflyOria": "userGender",
+      "leaderknotOria": "equipmentNo",
+      "flytyingOria": "userEmail"
+    },
+    "reqReplace": {
+      "snarlOria": "userEmail",
+      "dragwashersOria": "type",
+      "birdsnestOria": "bundleId",
+      "spoolOria": "userName",
+      "backlashOria": "password",
+      "bailarmOria": "userImgUrl",
+      "lineguideOria": "userBrief"
+    },
+    "systemPath": "/sj/user/emailLogin"
+  },
+  {
+    "customPath": "/wijgtrz/rlfkjadhqhwriq",
+    "resReplace": {
+      "linecutterOria": "livePassword",
+      "reelseatOria": "userId",
+      "rodholderOria": "liveStatus",
+      "pliersOria": "liveClassify",
+      "tackleboxOria": "userName",
+      "wadingbootsOria": "liveLocation",
+      "fishgrippersOria": "bundleId",
+      "landingnetOria": "createDate",
+      "lurewrapOria": "videoTimes",
+      "gaffOria": "userList",
+      "userList": {
+        "stringerOria": "liveUserId",
+        "filletknifeOria": "userId",
+        "scalingtoolOria": "bundleId",
+        "livewellOria": "liveId",
+        "aeratorOria": "userName",
+        "coolerboxOria": "userImgUrl"
+      },
+      "corkgripOria": "liveCoverImg",
+      "wadersOria": "liveUserNum",
+      "evafoamOria": "liveTitle",
+      "rodtubeOria": "videoUrl",
+      "utilitytrayOria": "userImgUrl",
+      "guidingsringsOria": "liveId",
+      "buttcapOria": "liveTime",
+      "hookkeeperOria": "liveIncome"
+    },
+    "reqReplace": {
+      "gearratioOria": "liveStatus",
+      "graphiteOria": "selectType",
+      "blankOria": "liveClassify",
+      "ballbearingOria": "current",
+      "carbonfiberOria": "size",
+      "fiberglassOria": "bundleId"
+    },
+    "systemPath": "/sj/live/selectLivePage"
+  },
+  {
+    "customPath": "/luiozjjz/ponhlknrfibjgt",
+    "resReplace": {
+      "headlampOria": "attentionFlag",
+      "raingearOria": "userImgUrl",
+      "polarizedsunglassesOria": "userId",
+      "drybagOria": "userBrief",
+      "subsurfaceOria": "friendFlag",
+      "sunshirtOria": "userName",
+      "weedlessOria": "userLocation",
+      "topwaterOria": "userBirthday"
+    },
+    "reqReplace": {
+      "hookremoverOria": "selectType"
+    },
+    "systemPath": "/sj/user/selectUserRelation"
+  },
+  {
+    "customPath": "/tlpyedhz/dszgfaibkbae",
+    "resReplace": {
+      "salmonrunOria": "createDate",
+      "muskyfishingOria": "activityUserVoList",
+      "scentedbaitOria": "activityDate",
+      "chummingOria": "activityDetailsTime",
+      "walleyefishingOria": "userName",
+      "pikefishingOria": "userImgUrl",
+      "uvreflectiveOria": "activityIntroduce",
+      "activityUserVoList": {
+        "catfishingOria": "userImgUrl",
+        "panfishOria": "userId",
+        "crappiefishingOria": "userName",
+        "icefishingOria": "attentionFlag"
+      },
+      "burleyOria": "activityLocation",
+      "hairrigOria": "activityLableImg",
+      "troutfishingOria": "userId",
+      "methodfeederOria": "activityLable",
+      "carpfishingOria": "activityPhoneNum",
+      "surffishingOria": "addFlag",
+      "bassfishingOria": "activityCoverImg",
+      "glowinthedarkOria": "activityTitle",
+      "groundbaitOria": "activityUserNum",
+      "silentlureOria": "activityId"
+    },
+    "reqReplace": {
+      "rattlingOria": "version",
+      "slowsinkingOria": "selectType",
+      "floatingOria": "activityId",
+      "fastsinkingOria": "activityLable",
+      "suspendingOria": "bundleId",
+      "sinkingOria": "beSelectUserId"
+    },
+    "systemPath": "/sj/activity/selectActivityPage"
+  },
+  {
+    "customPath": "/tnsoacodqz/yllxht",
+    "reqReplace": {
+      "rockfishingOria": "activityId"
+    },
+    "systemPath": "/sj/activity/joinQuitActivity"
+  },
+  {
+    "customPath": "/puiunnqemevxiz/hxeofnonq",
+    "reqReplace": {
+      "deepseafishingOria": "bundleId"
+    },
+    "systemPath": "/sj/activity/selectAcLabel"
+  },
+  {
+    "customPath": "/qanbewuwjyswz/tqhosmwdxbsx",
+    "reqReplace": {
+      "offshorefishingOria": "equipmentNo",
+      "inshorefishingOria": "password",
+      "nearshorefishingOria": "type"
+    },
+    "systemPath": "/sj/user/selectUpdateUser"
+  },
+  {
+    "customPath": "/hugfzhbwzz/vhmhso",
+    "resReplace": {
+      "slowpitchjiggingOria": "createDate",
+      "blindcastingOria": "topicContent",
+      "driftfishingOria": "topicImg",
+      "bottomfishingOria": "labelLog",
+      "anchorDropOria": "labelName",
+      "microjiggingOria": "praiseFlag",
+      "sightfishingOria": "topicId",
+      "verticaljiggingOria": "bundleId"
+    },
+    "reqReplace": {
+      "flatsfishingOria": "bundleId"
+    },
+    "systemPath": "/sj/topic/selectTopicPage"
+  },
+  {
+    "customPath": "/iunuxwwpiedkeyz/cbxmsmdkrqfcvi",
+    "resReplace": {
+      "flippingOria": "userId",
+      "punchingcoverOria": "userImgUrl",
+      "userLabelInfoVos": {
+        "buzzbaitOria": "labelId",
+        "walkerbaitOria": "userLabelId",
+        "jigheadOria": "userId",
+        "skirtedjigOria": "labelName",
+        "swimbaitOria": "sort",
+        "chatterbaitOria": "labelLog"
+      },
+      "heavymatOria": "userLabelInfoVos",
+      "pitchingOria": "userName"
+    },
+    "reqReplace": {
+      "skippinglureOria": "bundleId"
+    },
+    "systemPath": "/sj/user/selectMatchUser"
+  },
+  {
+    "customPath": "/gzkxsz/okebnwnanjpynd",
+    "reqReplace": {
+      "cattailsOria": "messageId"
+    },
+    "systemPath": "/sj/message/updateMsgRead"
+  },
+  {
+    "customPath": "/ftjvawxmpduz/adkznuuacdw",
+    "resReplace": {
+      "tidetableOria": "sendUserName",
+      "barometerOria": "title",
+      "bathymetryOria": "receiveUserImg",
+      "lowtideOria": "createDate",
+      "moonphaseOria": "sendUserId",
+      "slackwaterOria": "readFlag",
+      "topographyOria": "receiveUserName",
+      "solunarOria": "content",
+      "highwaterOria": "sendUserImgUrl",
+      "waypointOria": "receiveUserId",
+      "navigationOria": "messageId"
+    },
+    "reqReplace": {},
+    "systemPath": "/sj/message/selectNotifyMsg"
+  },
+  {
+    "customPath": "/obhyedoz/hqjyzfwajoe",
+    "reqReplace": {
+      "brushpileOria": "userSecondName",
+      "boulderOria": "matchStatus",
+      "stumpfieldOria": "userSecondId",
+      "rockpileOria": "userSecondImgUrl"
+    },
+    "systemPath": "/sj/matchrecord/addMatchRecord"
+  },
+  {
+    "customPath": "/vpxhrhzktjaz/wqrtkai",
+    "resReplace": {
+      "tailwaterOria": "userSecondName",
+      "undercutbankOria": "userImgUrl",
+      "creekchannelOria": "userId",
+      "riverbendOria": "userName",
+      "lockanddamOria": "userSecondImgUrl",
+      "spillwayOria": "userSecondId"
+    },
+    "reqReplace": {
+      "gravelbarOria": "matchStatus"
+    },
+    "systemPath": "/sj/matchrecord/selectMatchRecord"
+  },
+  {
+    "customPath": "/mxcsdoiz/bovbobjsd",
+    "resReplace": {
+      "marinaOria": "dictName",
+      "weedlineOria": "dictSort",
+      "waterclarityOria": "imgList",
+      "breaklineOria": "dictType",
+      "muddywaterOria": "imgList",
+      "edgeeffectOria": "dictRemkar"
+    },
+    "reqReplace": {
+      "culvertOria": "bundleId",
+      "bridgepilingOria": "version"
+    },
+    "systemPath": "/sj/dict/selectDictListForFive"
+  },
+  {
+    "customPath": "/vtsdcxfmoz/gfkiknwxfcilhxp",
+    "resReplace": {
+      "userImgList": {
+        "reddOria": "userId",
+        "prespawnOria": "imgUrl",
+        "postspawnOria": "bundleId",
+        "spawningbedOria": "userImagesId"
+      },
+      "chopOria": "showLabelUrl",
+      "labelEntityList": {
+        "eddiesOria": "userId",
+        "upwellingOria": "sort",
+        "ripcurrentOria": "labelLog",
+        "backcurrentOria": "labelName",
+        "downwellingOria": "bundleId",
+        "whitewaterOria": "userLabelId"
+      },
+      "thermoclineclimbOria": "attentionFlag",
+      "dissolvedoxygenOria": "matchUserId",
+      "migrationpathOria": "userImgList",
+      "barometricpressureOria": "userImgUrl",
+      "phlevelOria": "userName",
+      "windwardOria": "userFans",
+      "winddirectionOria": "userAge",
+      "swellOria": "labelEntityList",
+      "leewardOria": "userLocation"
+    },
+    "reqReplace": {
+      "watertemperatureOria": "bundleId",
+      "stainedwaterOria": "startAge",
+      "clearwaterOria": "endAge"
+    },
+    "systemPath": "/sj/matchuser/selectMatchUserList"
+  },
+  {
+    "customPath": "/yikauddnmcwwbcuz/qckclvglksvw",
+    "reqReplace": {
+      "winteringholeOria": "bundleId"
+    },
+    "systemPath": "/sj/user/selectUseIosBuy"
+  },
+  {
+    "customPath": "/uytwuelvrz/xvqngakqjdaclub",
+    "resReplace": {
+      "liplesscrankOria": "userId",
+      "albrightknotOria": "userType",
+      "popperflyOria": "vipExpireTime",
+      "loopknotOria": "userHeight",
+      "hairjigOria": "userName",
+      "clinchknotOria": "token",
+      "streamerOria": "userBrief",
+      "wetflyOria": "userLocation",
+      "bloodknotOria": "userStatus",
+      "palomarknotOria": "bundleId",
+      "fgknotOria": "userWeight",
+      "featherjigOria": "userImgUrl",
+      "nymphOria": "userBirthday",
+      "dryflyOria": "userGender",
+      "leaderknotOria": "equipmentNo",
+      "flytyingOria": "userEmail"
+    },
+    "reqReplace": {
+      "summerpatternOria": "identityToken",
+      "falltransitionOria": "equipmentNo",
+      "springfeverOria": "bundleId"
+    },
+    "systemPath": "/vse/user/appleSsoLogin"
+  }
+]
