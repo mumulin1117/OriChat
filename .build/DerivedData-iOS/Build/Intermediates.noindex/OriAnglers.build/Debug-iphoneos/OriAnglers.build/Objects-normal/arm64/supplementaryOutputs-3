@@ -1,0 +1,79 @@
+{
+  "/Users/mac/Documents/OriChat/OriAnglers/OriDock/OriDockCatchItem.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockCatchItem.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockCatchItem.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockCatchItem.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockCatchItem.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockCatchItem.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriDock/OriDockCurrentManager.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockCurrentManager.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockCurrentManager.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockCurrentManager.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockCurrentManager.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockCurrentManager.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriDock/OriDockGuideCardCell.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockGuideCardCell.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockGuideCardCell.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockGuideCardCell.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockGuideCardCell.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockGuideCardCell.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriDock/OriDockSpotCardCell.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockSpotCardCell.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockSpotCardCell.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockSpotCardCell.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockSpotCardCell.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriDockSpotCardCell.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriGearKit/OriGearStringCurrent.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriGearStringCurrent.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriGearStringCurrent.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriGearStringCurrent.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriGearStringCurrent.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriGearStringCurrent.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriGearKit/OriaImagewaterRemoteView.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaImagewaterRemoteView.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaImagewaterRemoteView.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaImagewaterRemoteView.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaImagewaterRemoteView.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaImagewaterRemoteView.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriGearKit/OriaSdkconnectPortalController.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaSdkconnectPortalController.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaSdkconnectPortalController.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaSdkconnectPortalController.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaSdkconnectPortalController.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaSdkconnectPortalController.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriGearKit/OriaTravelrouteWebRoute.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaTravelrouteWebRoute.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaTravelrouteWebRoute.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaTravelrouteWebRoute.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaTravelrouteWebRoute.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriaTravelrouteWebRoute.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriReelFeed/OriReelFeedDecoder.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedDecoder.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedDecoder.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedDecoder.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedDecoder.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedDecoder.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriReelFeed/OriReelFeedGateway.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedGateway.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedGateway.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedGateway.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedGateway.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedGateway.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriReelFeed/OriReelFeedModels.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedModels.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedModels.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedModels.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedModels.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData-iOS/Build/Intermediates.noindex/OriAnglers.build/Debug-iphoneos/OriAnglers.build/Objects-normal/arm64/OriReelFeedModels.swiftdeps"
+  }
+}

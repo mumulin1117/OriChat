@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>12</integer>
+	<key>logs</key>
+	<dict>
+		<key>9000B999-B138-46F4-AA5A-46C42AA94C8E</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9000B999-B138-46F4-AA5A-46C42AA94C8E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>12</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>OriAnglers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OriAnglers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project OriAnglers with scheme OriAnglers and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>803209182.24477601</real>
+			<key>timeStoppedRecording</key>
+			<real>803209185.72141504</real>
+			<key>title</key>
+			<string>Building project OriAnglers with scheme OriAnglers and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>9000B999-B138-46F4-AA5A-46C42AA94C8E</string>
+		</dict>
+		<key>BA897677-B001-4BF9-A66F-9268FCE8E3CB</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BA897677-B001-4BF9-A66F-9268FCE8E3CB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>10</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>OriAnglers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OriAnglers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project OriAnglers with scheme OriAnglers and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>803209104.56447899</real>
+			<key>timeStoppedRecording</key>
+			<real>803209119.15249205</real>
+			<key>title</key>
+			<string>Building project OriAnglers with scheme OriAnglers and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>BA897677-B001-4BF9-A66F-9268FCE8E3CB</string>
+		</dict>
+		<key>CB001490-517E-468E-84F4-84CF73A6831B</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CB001490-517E-468E-84F4-84CF73A6831B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>3</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>OriAnglers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OriAnglers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project OriAnglers with scheme OriAnglers and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>803209129.67477703</real>
+			<key>timeStoppedRecording</key>
+			<real>803209135.57099402</real>
+			<key>title</key>
+			<string>Building project OriAnglers with scheme OriAnglers and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>CB001490-517E-468E-84F4-84CF73A6831B</string>
+		</dict>
+		<key>DA4E605E-9D2B-4919-9125-91673024A32E</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DA4E605E-9D2B-4919-9125-91673024A32E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>10</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>OriAnglers project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OriAnglers</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project OriAnglers with scheme OriAnglers and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>803209150.25364804</real>
+			<key>timeStoppedRecording</key>
+			<real>803209154.21327806</real>
+			<key>title</key>
+			<string>Building project OriAnglers with scheme OriAnglers and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>DA4E605E-9D2B-4919-9125-91673024A32E</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

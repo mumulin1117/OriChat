@@ -1,0 +1,79 @@
+{
+  "/Users/mac/Documents/OriChat/OriAnglers/OriBuddyHarbor/OriTideFilter/OriTideFilterChipView.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterChipView.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterChipView.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterChipView.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterChipView.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterChipView.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriBuddyHarbor/OriTideFilter/OriTideFilterEmptyStateView.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterEmptyStateView.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterEmptyStateView.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterEmptyStateView.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterEmptyStateView.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterEmptyStateView.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriBuddyHarbor/OriTideFilter/OriTideFilterEngine.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterEngine.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterEngine.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterEngine.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterEngine.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterEngine.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriBuddyHarbor/OriTideFilter/OriTideFilterSheetController.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterSheetController.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterSheetController.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterSheetController.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterSheetController.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterSheetController.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriBuddyHarbor/OriTideFilter/OriTideFilterSortSheetController.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterSortSheetController.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterSortSheetController.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterSortSheetController.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterSortSheetController.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTideFilterSortSheetController.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriBuddyHarbor/OriTripLog/OriTripLogCancelSheetController.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogCancelSheetController.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogCancelSheetController.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogCancelSheetController.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogCancelSheetController.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogCancelSheetController.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriBuddyHarbor/OriTripLog/OriTripLogCanceledController.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogCanceledController.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogCanceledController.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogCanceledController.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogCanceledController.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogCanceledController.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriBuddyHarbor/OriTripLog/OriTripLogDraftLedger.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogDraftLedger.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogDraftLedger.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogDraftLedger.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogDraftLedger.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogDraftLedger.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriBuddyHarbor/OriTripLog/OriTripLogEditController.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogEditController.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogEditController.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogEditController.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogEditController.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogEditController.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriBuddyHarbor/OriTripLog/OriTripLogPublishControls.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogPublishControls.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogPublishControls.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogPublishControls.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogPublishControls.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogPublishControls.swiftdeps"
+  },
+  "/Users/mac/Documents/OriChat/OriAnglers/OriBuddyHarbor/OriTripLog/OriTripLogPublishedController.swift" : {
+    "const-values" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogPublishedController.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogPublishedController.d",
+    "diagnostics" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogPublishedController.dia",
+    "object" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogPublishedController.o",
+    "swift-dependencies" : "/Users/mac/Documents/OriChat/.build/DerivedData/Build/Intermediates.noindex/OriAnglers.build/Debug-iphonesimulator/OriAnglers.build/Objects-normal/x86_64/OriTripLogPublishedController.swiftdeps"
+  }
+}

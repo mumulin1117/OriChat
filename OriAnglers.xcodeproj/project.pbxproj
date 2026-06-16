@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042830CD2FE0FA26000A059C /* OriBuaaAkeForNetTooll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042830CC2FE0FA26000A059C /* OriBuaaAkeForNetTooll.swift */; };
+		042830CF2FE0FA58000A059C /* OriChatVibeRoutel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042830CE2FE0FA58000A059C /* OriChatVibeRoutel.swift */; };
+		100000000000000000000001 /* OriHarbor/OriAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* OriHarbor/OriAppDelegate.swift */; };
+		100000000000000000000002 /* OriHarbor/OriSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* OriHarbor/OriSceneDelegate.swift */; };
+		100000000000000000000003 /* OriGearKit/OriGearConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* OriGearKit/OriGearConstants.swift */; };
+		100000000000000000000004 /* OriGearKit/OriGearViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* OriGearKit/OriGearViewLayout.swift */; };
+		100000000000000000000005 /* OriGearKit/OriGearGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* OriGearKit/OriGearGradientButton.swift */; };
+		100000000000000000000006 /* OriGearKit/OriGearToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000006 /* OriGearKit/OriGearToast.swift */; };
+		100000000000000000000007 /* OriTacklePass/OriaUserauthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000007 /* OriTacklePass/OriaUserauthModels.swift */; };
+		100000000000000000000008 /* OriTacklePass/OriaUserauthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* OriTacklePass/OriaUserauthStore.swift */; };
+		100000000000000000000009 /* OriTacklePass/OriaUserauthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000009 /* OriTacklePass/OriaUserauthManager.swift */; };
+		100000000000000000000010 /* OriCurrentNet/OriaApiintegratCurrentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000010 /* OriCurrentNet/OriaApiintegratCurrentService.swift */; };
+		100000000000000000000011 /* OriTacklePass/OriTacklePassBackdropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000011 /* OriTacklePass/OriTacklePassBackdropView.swift */; };
+		100000000000000000000012 /* OriTacklePass/OriTacklePassField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000012 /* OriTacklePass/OriTacklePassField.swift */; };
+		100000000000000000000013 /* OriFirstCast/OriFirstCastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000013 /* OriFirstCast/OriFirstCastController.swift */; };
+		100000000000000000000014 /* OriTacklePass/OriTacklePassEntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000014 /* OriTacklePass/OriTacklePassEntryController.swift */; };
+		100000000000000000000015 /* OriTacklePass/OriTacklePassLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000015 /* OriTacklePass/OriTacklePassLoginController.swift */; };
+		100000000000000000000016 /* OriTacklePass/OriTacklePassSignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000016 /* OriTacklePass/OriTacklePassSignupController.swift */; };
+		100000000000000000000017 /* OriHarbor/OriHarborTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000017 /* OriHarbor/OriHarborTabController.swift */; };
+		100000000000000000000018 /* OriHarbor/OriHarborBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000018 /* OriHarbor/OriHarborBaseController.swift */; };
+		100000000000000000000019 /* OriDock/OriDockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000019 /* OriDock/OriDockController.swift */; };
+		100000000000000000000020 /* OriBuddyHarbor/OriBuddyHarborBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000020 /* OriBuddyHarbor/OriBuddyHarborBoardController.swift */; };
+		100000000000000000000021 /* OriReelFeed/OriReelFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000021 /* OriReelFeed/OriReelFeedController.swift */; };
+		100000000000000000000022 /* OriCatchLog/OriCatchLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000022 /* OriCatchLog/OriCatchLogController.swift */; };
+		100000000000000000000023 /* OriGearKit/OriaTravelrouteWebRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000023 /* OriGearKit/OriaTravelrouteWebRoute.swift */; };
+		100000000000000000000024 /* OriGearKit/OriaSdkconnectPortalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000024 /* OriGearKit/OriaSdkconnectPortalController.swift */; };
+		100000000000000000000025 /* Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000025 /* Resources/Assets.xcassets */; };
+		100000000000000000000026 /* Resources/Base.lproj/LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000026 /* Resources/Base.lproj/LaunchScreen.storyboard */; };
+		100000000000000000000027 /* OriGearKit/OriaImagewaterRemoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000029 /* OriGearKit/OriaImagewaterRemoteView.swift */; };
+		100000000000000000000028 /* OriDock/OriDockCatchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000030 /* OriDock/OriDockCatchItem.swift */; };
+		100000000000000000000029 /* OriDock/OriDockCurrentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000031 /* OriDock/OriDockCurrentManager.swift */; };
+		100000000000000000000030 /* OriDock/OriDockSpotCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000032 /* OriDock/OriDockSpotCardCell.swift */; };
+		100000000000000000000031 /* OriDock/OriDockGuideCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000033 /* OriDock/OriDockGuideCardCell.swift */; };
+		100000000000000000000032 /* OriReelFeed/OriReelFeedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000034 /* OriReelFeed/OriReelFeedModels.swift */; };
+		100000000000000000000033 /* OriReelFeed/OriReelFeedDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000035 /* OriReelFeed/OriReelFeedDecoder.swift */; };
+		100000000000000000000034 /* OriReelFeed/OriReelFeedGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000036 /* OriReelFeed/OriReelFeedGateway.swift */; };
+		100000000000000000000035 /* OriReelFeed/OriReelFeedNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000037 /* OriReelFeed/OriReelFeedNavigator.swift */; };
+		100000000000000000000036 /* OriReelFeed/OriReelFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000038 /* OriReelFeed/OriReelFeedViewModel.swift */; };
+		100000000000000000000037 /* OriReelFeed/OriReelFeedUserStripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000039 /* OriReelFeed/OriReelFeedUserStripCell.swift */; };
+		100000000000000000000038 /* OriReelFeed/OriReelFeedClipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000040 /* OriReelFeed/OriReelFeedClipCell.swift */; };
+		100000000000000000000042 /* OriBuddyHarbor/OriBuddyHarborModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000044 /* OriBuddyHarbor/OriBuddyHarborModels.swift */; };
+		100000000000000000000043 /* OriBuddyHarbor/OriBuddyHarborFixtureForge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000045 /* OriBuddyHarbor/OriBuddyHarborFixtureForge.swift */; };
+		100000000000000000000044 /* OriBuddyHarbor/OriBuddyHarborStateLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000046 /* OriBuddyHarbor/OriBuddyHarborStateLedger.swift */; };
+		100000000000000000000045 /* OriBuddyHarbor/OriBuddyHarborViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000047 /* OriBuddyHarbor/OriBuddyHarborViews.swift */; };
+		100000000000000000000046 /* OriBuddyHarbor/OriBuddyHarborTripCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000048 /* OriBuddyHarbor/OriBuddyHarborTripCardCell.swift */; };
+		100000000000000000000047 /* OriBuddyHarbor/OriBuddyHarborFilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000049 /* OriBuddyHarbor/OriBuddyHarborFilterSheet.swift */; };
+		100000000000000000000048 /* OriBuddyHarbor/OriBuddyHarborTipsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000050 /* OriBuddyHarbor/OriBuddyHarborTipsController.swift */; };
+		100000000000000000000049 /* OriBuddyHarbor/OriBuddyHarborCreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000051 /* OriBuddyHarbor/OriBuddyHarborCreateController.swift */; };
+		100000000000000000000050 /* OriBuddyHarbor/OriBuddyHarborDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000052 /* OriBuddyHarbor/OriBuddyHarborDetailController.swift */; };
+		100000000000000000000051 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000053 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchController.swift */; };
+		100000000000000000000052 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000054 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchViewModel.swift */; };
+		100000000000000000000053 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000055 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchIndex.swift */; };
+		100000000000000000000054 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000056 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchMemory.swift */; };
+		100000000000000000000055 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000057 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchResultCell.swift */; };
+		100000000000000000000056 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000058 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchChipView.swift */; };
+		100000000000000000000057 /* OriBuddyHarbor/OriTideFilter/OriTideFilterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000059 /* OriBuddyHarbor/OriTideFilter/OriTideFilterState.swift */; };
+		100000000000000000000058 /* OriBuddyHarbor/OriTideFilter/OriTideFilterEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000060 /* OriBuddyHarbor/OriTideFilter/OriTideFilterEngine.swift */; };
+		100000000000000000000059 /* OriBuddyHarbor/OriTideFilter/OriTideFilterChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000061 /* OriBuddyHarbor/OriTideFilter/OriTideFilterChipView.swift */; };
+		100000000000000000000060 /* OriBuddyHarbor/OriTideFilter/OriTideFilterEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000062 /* OriBuddyHarbor/OriTideFilter/OriTideFilterEmptyStateView.swift */; };
+		100000000000000000000061 /* OriBuddyHarbor/OriTideFilter/OriTideFilterSortSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000063 /* OriBuddyHarbor/OriTideFilter/OriTideFilterSortSheetController.swift */; };
+		100000000000000000000062 /* OriBuddyHarbor/OriTideFilter/OriTideFilterSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000064 /* OriBuddyHarbor/OriTideFilter/OriTideFilterSheetController.swift */; };
+		100000000000000000000063 /* OriBuddyHarbor/OriTripLog/OriTripLogDraftLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000065 /* OriBuddyHarbor/OriTripLog/OriTripLogDraftLedger.swift */; };
+		100000000000000000000064 /* OriBuddyHarbor/OriTripLog/OriTripLogPublishControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000066 /* OriBuddyHarbor/OriTripLog/OriTripLogPublishControls.swift */; };
+		100000000000000000000065 /* OriBuddyHarbor/OriTripLog/OriTripLogPublishedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000067 /* OriBuddyHarbor/OriTripLog/OriTripLogPublishedController.swift */; };
+		100000000000000000000066 /* OriBuddyHarbor/OriTripLog/OriTripLogEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000068 /* OriBuddyHarbor/OriTripLog/OriTripLogEditController.swift */; };
+		100000000000000000000067 /* OriBuddyHarbor/OriTripLog/OriTripLogCancelSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000069 /* OriBuddyHarbor/OriTripLog/OriTripLogCancelSheetController.swift */; };
+		100000000000000000000068 /* OriBuddyHarbor/OriTripLog/OriTripLogCanceledController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000070 /* OriBuddyHarbor/OriTripLog/OriTripLogCanceledController.swift */; };
+		100000000000000000000069 /* OriTrustTide/OriTrustTideState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000071 /* OriTrustTide/OriTrustTideState.swift */; };
+		100000000000000000000070 /* OriTrustTide/OriTrustTideReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000072 /* OriTrustTide/OriTrustTideReview.swift */; };
+		100000000000000000000071 /* OriTrustTide/OriTrustTideDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000073 /* OriTrustTide/OriTrustTideDecoder.swift */; };
+		100000000000000000000072 /* OriTrustTide/OriTrustTideGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000074 /* OriTrustTide/OriTrustTideGateway.swift */; };
+		100000000000000000000073 /* OriTrustTide/OriTrustTideMetricsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000075 /* OriTrustTide/OriTrustTideMetricsBuilder.swift */; };
+		100000000000000000000074 /* OriTrustTide/OriTrustTideAvatarPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000076 /* OriTrustTide/OriTrustTideAvatarPipeline.swift */; };
+		100000000000000000000075 /* OriTrustTide/OriTrustTideBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000077 /* OriTrustTide/OriTrustTideBadgeView.swift */; };
+		100000000000000000000076 /* OriTrustTide/OriTrustTideScoreCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000078 /* OriTrustTide/OriTrustTideScoreCardView.swift */; };
+		100000000000000000000077 /* OriTrustTide/OriTrustTideMetricTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000079 /* OriTrustTide/OriTrustTideMetricTileView.swift */; };
+		100000000000000000000078 /* OriTrustTide/OriTrustTideReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000080 /* OriTrustTide/OriTrustTideReviewCell.swift */; };
+		100000000000000000000079 /* OriTrustTide/OriTrustTideEmptyReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000081 /* OriTrustTide/OriTrustTideEmptyReviewView.swift */; };
+		100000000000000000000080 /* OriTrustTide/OriTrustTideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000082 /* OriTrustTide/OriTrustTideViewModel.swift */; };
+		100000000000000000000081 /* OriTrustTide/OriTrustTideLedgerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000083 /* OriTrustTide/OriTrustTideLedgerController.swift */; };
+		100000000000000000000082 /* OriCatchLog/OriCatchLogModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000084 /* OriCatchLog/OriCatchLogModels.swift */; };
+		100000000000000000000083 /* OriCatchLog/OriCatchLogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000085 /* OriCatchLog/OriCatchLogService.swift */; };
+		100000000000000000000084 /* OriCatchLog/OriCatchLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000086 /* OriCatchLog/OriCatchLogViewModel.swift */; };
+		100000000000000000000085 /* OriCatchLog/OriCatchLogHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000087 /* OriCatchLog/OriCatchLogHeaderView.swift */; };
+		100000000000000000000086 /* OriCatchLog/OriCatchLogWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000088 /* OriCatchLog/OriCatchLogWalletView.swift */; };
+		100000000000000000000087 /* OriCatchLog/OriCatchLogSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000089 /* OriCatchLog/OriCatchLogSegmentView.swift */; };
+		100000000000000000000088 /* OriCatchLog/OriCatchLogRecordCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000090 /* OriCatchLog/OriCatchLogRecordCardView.swift */; };
+		100000000000000000000089 /* OriGearKit/OriGearStringCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000091 /* OriGearKit/OriGearStringCurrent.swift */; };
+		100000000000000000000090 /* OriBuddyHarbor/OriBuddyHarborMessageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000092 /* OriBuddyHarbor/OriBuddyHarborMessageListController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042830CC2FE0FA26000A059C /* OriBuaaAkeForNetTooll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuaaAkeForNetTooll.swift; sourceTree = "<group>"; };
+		042830CE2FE0FA58000A059C /* OriChatVibeRoutel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriChatVibeRoutel.swift; sourceTree = "<group>"; };
+		200000000000000000000001 /* OriHarbor/OriAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriHarbor/OriAppDelegate.swift; sourceTree = "<group>"; };
+		200000000000000000000002 /* OriHarbor/OriSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriHarbor/OriSceneDelegate.swift; sourceTree = "<group>"; };
+		200000000000000000000003 /* OriGearKit/OriGearConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriGearKit/OriGearConstants.swift; sourceTree = "<group>"; };
+		200000000000000000000004 /* OriGearKit/OriGearViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriGearKit/OriGearViewLayout.swift; sourceTree = "<group>"; };
+		200000000000000000000005 /* OriGearKit/OriGearGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriGearKit/OriGearGradientButton.swift; sourceTree = "<group>"; };
+		200000000000000000000006 /* OriGearKit/OriGearToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriGearKit/OriGearToast.swift; sourceTree = "<group>"; };
+		200000000000000000000007 /* OriTacklePass/OriaUserauthModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTacklePass/OriaUserauthModels.swift; sourceTree = "<group>"; };
+		200000000000000000000008 /* OriTacklePass/OriaUserauthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTacklePass/OriaUserauthStore.swift; sourceTree = "<group>"; };
+		200000000000000000000009 /* OriTacklePass/OriaUserauthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTacklePass/OriaUserauthManager.swift; sourceTree = "<group>"; };
+		200000000000000000000010 /* OriCurrentNet/OriaApiintegratCurrentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriCurrentNet/OriaApiintegratCurrentService.swift; sourceTree = "<group>"; };
+		200000000000000000000011 /* OriTacklePass/OriTacklePassBackdropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTacklePass/OriTacklePassBackdropView.swift; sourceTree = "<group>"; };
+		200000000000000000000012 /* OriTacklePass/OriTacklePassField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTacklePass/OriTacklePassField.swift; sourceTree = "<group>"; };
+		200000000000000000000013 /* OriFirstCast/OriFirstCastController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriFirstCast/OriFirstCastController.swift; sourceTree = "<group>"; };
+		200000000000000000000014 /* OriTacklePass/OriTacklePassEntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTacklePass/OriTacklePassEntryController.swift; sourceTree = "<group>"; };
+		200000000000000000000015 /* OriTacklePass/OriTacklePassLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTacklePass/OriTacklePassLoginController.swift; sourceTree = "<group>"; };
+		200000000000000000000016 /* OriTacklePass/OriTacklePassSignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTacklePass/OriTacklePassSignupController.swift; sourceTree = "<group>"; };
+		200000000000000000000017 /* OriHarbor/OriHarborTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriHarbor/OriHarborTabController.swift; sourceTree = "<group>"; };
+		200000000000000000000018 /* OriHarbor/OriHarborBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriHarbor/OriHarborBaseController.swift; sourceTree = "<group>"; };
+		200000000000000000000019 /* OriDock/OriDockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriDock/OriDockController.swift; sourceTree = "<group>"; };
+		200000000000000000000020 /* OriBuddyHarbor/OriBuddyHarborBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriBuddyHarborBoardController.swift; sourceTree = "<group>"; };
+		200000000000000000000021 /* OriReelFeed/OriReelFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriReelFeed/OriReelFeedController.swift; sourceTree = "<group>"; };
+		200000000000000000000022 /* OriCatchLog/OriCatchLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriCatchLog/OriCatchLogController.swift; sourceTree = "<group>"; };
+		200000000000000000000023 /* OriGearKit/OriaTravelrouteWebRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriGearKit/OriaTravelrouteWebRoute.swift; sourceTree = "<group>"; };
+		200000000000000000000024 /* OriGearKit/OriaSdkconnectPortalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriGearKit/OriaSdkconnectPortalController.swift; sourceTree = "<group>"; };
+		200000000000000000000025 /* Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		200000000000000000000026 /* Resources/Base.lproj/LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Resources/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		200000000000000000000027 /* Resources/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Resources/Info.plist; sourceTree = "<group>"; };
+		200000000000000000000028 /* OriAnglers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriAnglers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000029 /* OriGearKit/OriaImagewaterRemoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriGearKit/OriaImagewaterRemoteView.swift; sourceTree = "<group>"; };
+		200000000000000000000030 /* OriDock/OriDockCatchItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriDock/OriDockCatchItem.swift; sourceTree = "<group>"; };
+		200000000000000000000031 /* OriDock/OriDockCurrentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriDock/OriDockCurrentManager.swift; sourceTree = "<group>"; };
+		200000000000000000000032 /* OriDock/OriDockSpotCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriDock/OriDockSpotCardCell.swift; sourceTree = "<group>"; };
+		200000000000000000000033 /* OriDock/OriDockGuideCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriDock/OriDockGuideCardCell.swift; sourceTree = "<group>"; };
+		200000000000000000000034 /* OriReelFeed/OriReelFeedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriReelFeed/OriReelFeedModels.swift; sourceTree = "<group>"; };
+		200000000000000000000035 /* OriReelFeed/OriReelFeedDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriReelFeed/OriReelFeedDecoder.swift; sourceTree = "<group>"; };
+		200000000000000000000036 /* OriReelFeed/OriReelFeedGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriReelFeed/OriReelFeedGateway.swift; sourceTree = "<group>"; };
+		200000000000000000000037 /* OriReelFeed/OriReelFeedNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriReelFeed/OriReelFeedNavigator.swift; sourceTree = "<group>"; };
+		200000000000000000000038 /* OriReelFeed/OriReelFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriReelFeed/OriReelFeedViewModel.swift; sourceTree = "<group>"; };
+		200000000000000000000039 /* OriReelFeed/OriReelFeedUserStripCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriReelFeed/OriReelFeedUserStripCell.swift; sourceTree = "<group>"; };
+		200000000000000000000040 /* OriReelFeed/OriReelFeedClipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriReelFeed/OriReelFeedClipCell.swift; sourceTree = "<group>"; };
+		200000000000000000000044 /* OriBuddyHarbor/OriBuddyHarborModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriBuddyHarborModels.swift; sourceTree = "<group>"; };
+		200000000000000000000045 /* OriBuddyHarbor/OriBuddyHarborFixtureForge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriBuddyHarborFixtureForge.swift; sourceTree = "<group>"; };
+		200000000000000000000046 /* OriBuddyHarbor/OriBuddyHarborStateLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriBuddyHarborStateLedger.swift; sourceTree = "<group>"; };
+		200000000000000000000047 /* OriBuddyHarbor/OriBuddyHarborViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriBuddyHarborViews.swift; sourceTree = "<group>"; };
+		200000000000000000000048 /* OriBuddyHarbor/OriBuddyHarborTripCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriBuddyHarborTripCardCell.swift; sourceTree = "<group>"; };
+		200000000000000000000049 /* OriBuddyHarbor/OriBuddyHarborFilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriBuddyHarborFilterSheet.swift; sourceTree = "<group>"; };
+		200000000000000000000050 /* OriBuddyHarbor/OriBuddyHarborTipsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriBuddyHarborTipsController.swift; sourceTree = "<group>"; };
+		200000000000000000000051 /* OriBuddyHarbor/OriBuddyHarborCreateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriBuddyHarborCreateController.swift; sourceTree = "<group>"; };
+		200000000000000000000052 /* OriBuddyHarbor/OriBuddyHarborDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriBuddyHarborDetailController.swift; sourceTree = "<group>"; };
+		200000000000000000000053 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriSpotSearch/OriSpotSearchController.swift; sourceTree = "<group>"; };
+		200000000000000000000054 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriSpotSearch/OriSpotSearchViewModel.swift; sourceTree = "<group>"; };
+		200000000000000000000055 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriSpotSearch/OriSpotSearchIndex.swift; sourceTree = "<group>"; };
+		200000000000000000000056 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchMemory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriSpotSearch/OriSpotSearchMemory.swift; sourceTree = "<group>"; };
+		200000000000000000000057 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriSpotSearch/OriSpotSearchResultCell.swift; sourceTree = "<group>"; };
+		200000000000000000000058 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriSpotSearch/OriSpotSearchChipView.swift; sourceTree = "<group>"; };
+		200000000000000000000059 /* OriBuddyHarbor/OriTideFilter/OriTideFilterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriTideFilter/OriTideFilterState.swift; sourceTree = "<group>"; };
+		200000000000000000000060 /* OriBuddyHarbor/OriTideFilter/OriTideFilterEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriTideFilter/OriTideFilterEngine.swift; sourceTree = "<group>"; };
+		200000000000000000000061 /* OriBuddyHarbor/OriTideFilter/OriTideFilterChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriTideFilter/OriTideFilterChipView.swift; sourceTree = "<group>"; };
+		200000000000000000000062 /* OriBuddyHarbor/OriTideFilter/OriTideFilterEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriTideFilter/OriTideFilterEmptyStateView.swift; sourceTree = "<group>"; };
+		200000000000000000000063 /* OriBuddyHarbor/OriTideFilter/OriTideFilterSortSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriTideFilter/OriTideFilterSortSheetController.swift; sourceTree = "<group>"; };
+		200000000000000000000064 /* OriBuddyHarbor/OriTideFilter/OriTideFilterSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriTideFilter/OriTideFilterSheetController.swift; sourceTree = "<group>"; };
+		200000000000000000000065 /* OriBuddyHarbor/OriTripLog/OriTripLogDraftLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriTripLog/OriTripLogDraftLedger.swift; sourceTree = "<group>"; };
+		200000000000000000000066 /* OriBuddyHarbor/OriTripLog/OriTripLogPublishControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriTripLog/OriTripLogPublishControls.swift; sourceTree = "<group>"; };
+		200000000000000000000067 /* OriBuddyHarbor/OriTripLog/OriTripLogPublishedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriTripLog/OriTripLogPublishedController.swift; sourceTree = "<group>"; };
+		200000000000000000000068 /* OriBuddyHarbor/OriTripLog/OriTripLogEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriTripLog/OriTripLogEditController.swift; sourceTree = "<group>"; };
+		200000000000000000000069 /* OriBuddyHarbor/OriTripLog/OriTripLogCancelSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriTripLog/OriTripLogCancelSheetController.swift; sourceTree = "<group>"; };
+		200000000000000000000070 /* OriBuddyHarbor/OriTripLog/OriTripLogCanceledController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriTripLog/OriTripLogCanceledController.swift; sourceTree = "<group>"; };
+		200000000000000000000071 /* OriTrustTide/OriTrustTideState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTrustTide/OriTrustTideState.swift; sourceTree = "<group>"; };
+		200000000000000000000072 /* OriTrustTide/OriTrustTideReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTrustTide/OriTrustTideReview.swift; sourceTree = "<group>"; };
+		200000000000000000000073 /* OriTrustTide/OriTrustTideDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTrustTide/OriTrustTideDecoder.swift; sourceTree = "<group>"; };
+		200000000000000000000074 /* OriTrustTide/OriTrustTideGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTrustTide/OriTrustTideGateway.swift; sourceTree = "<group>"; };
+		200000000000000000000075 /* OriTrustTide/OriTrustTideMetricsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTrustTide/OriTrustTideMetricsBuilder.swift; sourceTree = "<group>"; };
+		200000000000000000000076 /* OriTrustTide/OriTrustTideAvatarPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTrustTide/OriTrustTideAvatarPipeline.swift; sourceTree = "<group>"; };
+		200000000000000000000077 /* OriTrustTide/OriTrustTideBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTrustTide/OriTrustTideBadgeView.swift; sourceTree = "<group>"; };
+		200000000000000000000078 /* OriTrustTide/OriTrustTideScoreCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTrustTide/OriTrustTideScoreCardView.swift; sourceTree = "<group>"; };
+		200000000000000000000079 /* OriTrustTide/OriTrustTideMetricTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTrustTide/OriTrustTideMetricTileView.swift; sourceTree = "<group>"; };
+		200000000000000000000080 /* OriTrustTide/OriTrustTideReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTrustTide/OriTrustTideReviewCell.swift; sourceTree = "<group>"; };
+		200000000000000000000081 /* OriTrustTide/OriTrustTideEmptyReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTrustTide/OriTrustTideEmptyReviewView.swift; sourceTree = "<group>"; };
+		200000000000000000000082 /* OriTrustTide/OriTrustTideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTrustTide/OriTrustTideViewModel.swift; sourceTree = "<group>"; };
+		200000000000000000000083 /* OriTrustTide/OriTrustTideLedgerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriTrustTide/OriTrustTideLedgerController.swift; sourceTree = "<group>"; };
+		200000000000000000000084 /* OriCatchLog/OriCatchLogModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriCatchLog/OriCatchLogModels.swift; sourceTree = "<group>"; };
+		200000000000000000000085 /* OriCatchLog/OriCatchLogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriCatchLog/OriCatchLogService.swift; sourceTree = "<group>"; };
+		200000000000000000000086 /* OriCatchLog/OriCatchLogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriCatchLog/OriCatchLogViewModel.swift; sourceTree = "<group>"; };
+		200000000000000000000087 /* OriCatchLog/OriCatchLogHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriCatchLog/OriCatchLogHeaderView.swift; sourceTree = "<group>"; };
+		200000000000000000000088 /* OriCatchLog/OriCatchLogWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriCatchLog/OriCatchLogWalletView.swift; sourceTree = "<group>"; };
+		200000000000000000000089 /* OriCatchLog/OriCatchLogSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriCatchLog/OriCatchLogSegmentView.swift; sourceTree = "<group>"; };
+		200000000000000000000090 /* OriCatchLog/OriCatchLogRecordCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriCatchLog/OriCatchLogRecordCardView.swift; sourceTree = "<group>"; };
+		200000000000000000000091 /* OriGearKit/OriGearStringCurrent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriGearKit/OriGearStringCurrent.swift; sourceTree = "<group>"; };
+		200000000000000000000092 /* OriBuddyHarbor/OriBuddyHarborMessageListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuddyHarbor/OriBuddyHarborMessageListController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				400000000000000000000002 /* OriAnglers */,
+				400000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		400000000000000000000002 /* OriAnglers */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000001 /* OriHarbor/OriAppDelegate.swift */,
+				200000000000000000000002 /* OriHarbor/OriSceneDelegate.swift */,
+				200000000000000000000003 /* OriGearKit/OriGearConstants.swift */,
+				200000000000000000000004 /* OriGearKit/OriGearViewLayout.swift */,
+				200000000000000000000005 /* OriGearKit/OriGearGradientButton.swift */,
+				200000000000000000000006 /* OriGearKit/OriGearToast.swift */,
+				200000000000000000000029 /* OriGearKit/OriaImagewaterRemoteView.swift */,
+				200000000000000000000091 /* OriGearKit/OriGearStringCurrent.swift */,
+				200000000000000000000007 /* OriTacklePass/OriaUserauthModels.swift */,
+				200000000000000000000008 /* OriTacklePass/OriaUserauthStore.swift */,
+				200000000000000000000009 /* OriTacklePass/OriaUserauthManager.swift */,
+				200000000000000000000010 /* OriCurrentNet/OriaApiintegratCurrentService.swift */,
+				200000000000000000000011 /* OriTacklePass/OriTacklePassBackdropView.swift */,
+				200000000000000000000012 /* OriTacklePass/OriTacklePassField.swift */,
+				200000000000000000000013 /* OriFirstCast/OriFirstCastController.swift */,
+				200000000000000000000014 /* OriTacklePass/OriTacklePassEntryController.swift */,
+				200000000000000000000015 /* OriTacklePass/OriTacklePassLoginController.swift */,
+				200000000000000000000016 /* OriTacklePass/OriTacklePassSignupController.swift */,
+				200000000000000000000017 /* OriHarbor/OriHarborTabController.swift */,
+				200000000000000000000018 /* OriHarbor/OriHarborBaseController.swift */,
+				200000000000000000000019 /* OriDock/OriDockController.swift */,
+				200000000000000000000030 /* OriDock/OriDockCatchItem.swift */,
+				200000000000000000000031 /* OriDock/OriDockCurrentManager.swift */,
+				200000000000000000000032 /* OriDock/OriDockSpotCardCell.swift */,
+				200000000000000000000033 /* OriDock/OriDockGuideCardCell.swift */,
+				200000000000000000000020 /* OriBuddyHarbor/OriBuddyHarborBoardController.swift */,
+				200000000000000000000021 /* OriReelFeed/OriReelFeedController.swift */,
+				200000000000000000000034 /* OriReelFeed/OriReelFeedModels.swift */,
+				200000000000000000000035 /* OriReelFeed/OriReelFeedDecoder.swift */,
+				200000000000000000000036 /* OriReelFeed/OriReelFeedGateway.swift */,
+				200000000000000000000037 /* OriReelFeed/OriReelFeedNavigator.swift */,
+				200000000000000000000038 /* OriReelFeed/OriReelFeedViewModel.swift */,
+				200000000000000000000039 /* OriReelFeed/OriReelFeedUserStripCell.swift */,
+				200000000000000000000040 /* OriReelFeed/OriReelFeedClipCell.swift */,
+				200000000000000000000022 /* OriCatchLog/OriCatchLogController.swift */,
+				200000000000000000000084 /* OriCatchLog/OriCatchLogModels.swift */,
+				200000000000000000000085 /* OriCatchLog/OriCatchLogService.swift */,
+				200000000000000000000086 /* OriCatchLog/OriCatchLogViewModel.swift */,
+				200000000000000000000087 /* OriCatchLog/OriCatchLogHeaderView.swift */,
+				200000000000000000000088 /* OriCatchLog/OriCatchLogWalletView.swift */,
+				200000000000000000000089 /* OriCatchLog/OriCatchLogSegmentView.swift */,
+				200000000000000000000090 /* OriCatchLog/OriCatchLogRecordCardView.swift */,
+				200000000000000000000044 /* OriBuddyHarbor/OriBuddyHarborModels.swift */,
+				200000000000000000000045 /* OriBuddyHarbor/OriBuddyHarborFixtureForge.swift */,
+				200000000000000000000046 /* OriBuddyHarbor/OriBuddyHarborStateLedger.swift */,
+				200000000000000000000047 /* OriBuddyHarbor/OriBuddyHarborViews.swift */,
+				200000000000000000000048 /* OriBuddyHarbor/OriBuddyHarborTripCardCell.swift */,
+				200000000000000000000049 /* OriBuddyHarbor/OriBuddyHarborFilterSheet.swift */,
+				200000000000000000000050 /* OriBuddyHarbor/OriBuddyHarborTipsController.swift */,
+				200000000000000000000092 /* OriBuddyHarbor/OriBuddyHarborMessageListController.swift */,
+				200000000000000000000051 /* OriBuddyHarbor/OriBuddyHarborCreateController.swift */,
+				200000000000000000000052 /* OriBuddyHarbor/OriBuddyHarborDetailController.swift */,
+				200000000000000000000053 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchController.swift */,
+				200000000000000000000054 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchViewModel.swift */,
+				200000000000000000000055 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchIndex.swift */,
+				200000000000000000000056 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchMemory.swift */,
+				200000000000000000000057 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchResultCell.swift */,
+				200000000000000000000058 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchChipView.swift */,
+				200000000000000000000059 /* OriBuddyHarbor/OriTideFilter/OriTideFilterState.swift */,
+				200000000000000000000060 /* OriBuddyHarbor/OriTideFilter/OriTideFilterEngine.swift */,
+				200000000000000000000061 /* OriBuddyHarbor/OriTideFilter/OriTideFilterChipView.swift */,
+				200000000000000000000062 /* OriBuddyHarbor/OriTideFilter/OriTideFilterEmptyStateView.swift */,
+				200000000000000000000063 /* OriBuddyHarbor/OriTideFilter/OriTideFilterSortSheetController.swift */,
+				200000000000000000000064 /* OriBuddyHarbor/OriTideFilter/OriTideFilterSheetController.swift */,
+				200000000000000000000065 /* OriBuddyHarbor/OriTripLog/OriTripLogDraftLedger.swift */,
+				200000000000000000000066 /* OriBuddyHarbor/OriTripLog/OriTripLogPublishControls.swift */,
+				200000000000000000000067 /* OriBuddyHarbor/OriTripLog/OriTripLogPublishedController.swift */,
+				200000000000000000000068 /* OriBuddyHarbor/OriTripLog/OriTripLogEditController.swift */,
+				200000000000000000000069 /* OriBuddyHarbor/OriTripLog/OriTripLogCancelSheetController.swift */,
+				200000000000000000000070 /* OriBuddyHarbor/OriTripLog/OriTripLogCanceledController.swift */,
+				200000000000000000000071 /* OriTrustTide/OriTrustTideState.swift */,
+				200000000000000000000072 /* OriTrustTide/OriTrustTideReview.swift */,
+				200000000000000000000073 /* OriTrustTide/OriTrustTideDecoder.swift */,
+				200000000000000000000074 /* OriTrustTide/OriTrustTideGateway.swift */,
+				200000000000000000000075 /* OriTrustTide/OriTrustTideMetricsBuilder.swift */,
+				200000000000000000000076 /* OriTrustTide/OriTrustTideAvatarPipeline.swift */,
+				200000000000000000000077 /* OriTrustTide/OriTrustTideBadgeView.swift */,
+				200000000000000000000078 /* OriTrustTide/OriTrustTideScoreCardView.swift */,
+				200000000000000000000079 /* OriTrustTide/OriTrustTideMetricTileView.swift */,
+				200000000000000000000080 /* OriTrustTide/OriTrustTideReviewCell.swift */,
+				200000000000000000000081 /* OriTrustTide/OriTrustTideEmptyReviewView.swift */,
+				200000000000000000000082 /* OriTrustTide/OriTrustTideViewModel.swift */,
+				200000000000000000000083 /* OriTrustTide/OriTrustTideLedgerController.swift */,
+				200000000000000000000023 /* OriGearKit/OriaTravelrouteWebRoute.swift */,
+				200000000000000000000024 /* OriGearKit/OriaSdkconnectPortalController.swift */,
+				200000000000000000000025 /* Resources/Assets.xcassets */,
+				200000000000000000000026 /* Resources/Base.lproj/LaunchScreen.storyboard */,
+				200000000000000000000027 /* Resources/Info.plist */,
+				042830CC2FE0FA26000A059C /* OriBuaaAkeForNetTooll.swift */,
+				042830CE2FE0FA58000A059C /* OriChatVibeRoutel.swift */,
+			);
+			path = OriAnglers;
+			sourceTree = "<group>";
+		};
+		400000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000028 /* OriAnglers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		500000000000000000000001 /* OriAnglers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900000000000000000000002 /* Build configuration list for PBXNativeTarget "OriAnglers" */;
+			buildPhases = (
+				600000000000000000000001 /* Sources */,
+				300000000000000000000001 /* Frameworks */,
+				600000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OriAnglers;
+			productName = OriAnglers;
+			productReference = 200000000000000000000028 /* OriAnglers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		700000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					500000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 900000000000000000000001 /* Build configuration list for PBXProject "OriAnglers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 400000000000000000000001;
+			productRefGroup = 400000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				500000000000000000000001 /* OriAnglers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		600000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000025 /* Resources/Assets.xcassets in Resources */,
+				100000000000000000000026 /* Resources/Base.lproj/LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		600000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000001 /* OriHarbor/OriAppDelegate.swift in Sources */,
+				100000000000000000000002 /* OriHarbor/OriSceneDelegate.swift in Sources */,
+				042830CD2FE0FA26000A059C /* OriBuaaAkeForNetTooll.swift in Sources */,
+				100000000000000000000003 /* OriGearKit/OriGearConstants.swift in Sources */,
+				100000000000000000000004 /* OriGearKit/OriGearViewLayout.swift in Sources */,
+				100000000000000000000005 /* OriGearKit/OriGearGradientButton.swift in Sources */,
+				100000000000000000000006 /* OriGearKit/OriGearToast.swift in Sources */,
+				100000000000000000000007 /* OriTacklePass/OriaUserauthModels.swift in Sources */,
+				100000000000000000000008 /* OriTacklePass/OriaUserauthStore.swift in Sources */,
+				100000000000000000000009 /* OriTacklePass/OriaUserauthManager.swift in Sources */,
+				100000000000000000000010 /* OriCurrentNet/OriaApiintegratCurrentService.swift in Sources */,
+				100000000000000000000011 /* OriTacklePass/OriTacklePassBackdropView.swift in Sources */,
+				100000000000000000000012 /* OriTacklePass/OriTacklePassField.swift in Sources */,
+				100000000000000000000013 /* OriFirstCast/OriFirstCastController.swift in Sources */,
+				100000000000000000000014 /* OriTacklePass/OriTacklePassEntryController.swift in Sources */,
+				100000000000000000000015 /* OriTacklePass/OriTacklePassLoginController.swift in Sources */,
+				100000000000000000000016 /* OriTacklePass/OriTacklePassSignupController.swift in Sources */,
+				100000000000000000000017 /* OriHarbor/OriHarborTabController.swift in Sources */,
+				100000000000000000000018 /* OriHarbor/OriHarborBaseController.swift in Sources */,
+				100000000000000000000019 /* OriDock/OriDockController.swift in Sources */,
+				100000000000000000000020 /* OriBuddyHarbor/OriBuddyHarborBoardController.swift in Sources */,
+				100000000000000000000021 /* OriReelFeed/OriReelFeedController.swift in Sources */,
+				100000000000000000000022 /* OriCatchLog/OriCatchLogController.swift in Sources */,
+				100000000000000000000023 /* OriGearKit/OriaTravelrouteWebRoute.swift in Sources */,
+				100000000000000000000024 /* OriGearKit/OriaSdkconnectPortalController.swift in Sources */,
+				100000000000000000000089 /* OriGearKit/OriGearStringCurrent.swift in Sources */,
+				100000000000000000000027 /* OriGearKit/OriaImagewaterRemoteView.swift in Sources */,
+				100000000000000000000028 /* OriDock/OriDockCatchItem.swift in Sources */,
+				100000000000000000000029 /* OriDock/OriDockCurrentManager.swift in Sources */,
+				100000000000000000000030 /* OriDock/OriDockSpotCardCell.swift in Sources */,
+				100000000000000000000031 /* OriDock/OriDockGuideCardCell.swift in Sources */,
+				100000000000000000000032 /* OriReelFeed/OriReelFeedModels.swift in Sources */,
+				100000000000000000000033 /* OriReelFeed/OriReelFeedDecoder.swift in Sources */,
+				100000000000000000000034 /* OriReelFeed/OriReelFeedGateway.swift in Sources */,
+				100000000000000000000035 /* OriReelFeed/OriReelFeedNavigator.swift in Sources */,
+				100000000000000000000036 /* OriReelFeed/OriReelFeedViewModel.swift in Sources */,
+				100000000000000000000037 /* OriReelFeed/OriReelFeedUserStripCell.swift in Sources */,
+				100000000000000000000038 /* OriReelFeed/OriReelFeedClipCell.swift in Sources */,
+				100000000000000000000042 /* OriBuddyHarbor/OriBuddyHarborModels.swift in Sources */,
+				100000000000000000000043 /* OriBuddyHarbor/OriBuddyHarborFixtureForge.swift in Sources */,
+				100000000000000000000044 /* OriBuddyHarbor/OriBuddyHarborStateLedger.swift in Sources */,
+				100000000000000000000045 /* OriBuddyHarbor/OriBuddyHarborViews.swift in Sources */,
+				100000000000000000000046 /* OriBuddyHarbor/OriBuddyHarborTripCardCell.swift in Sources */,
+				100000000000000000000047 /* OriBuddyHarbor/OriBuddyHarborFilterSheet.swift in Sources */,
+				100000000000000000000048 /* OriBuddyHarbor/OriBuddyHarborTipsController.swift in Sources */,
+				100000000000000000000090 /* OriBuddyHarbor/OriBuddyHarborMessageListController.swift in Sources */,
+				100000000000000000000049 /* OriBuddyHarbor/OriBuddyHarborCreateController.swift in Sources */,
+				100000000000000000000050 /* OriBuddyHarbor/OriBuddyHarborDetailController.swift in Sources */,
+				100000000000000000000051 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchController.swift in Sources */,
+				100000000000000000000052 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchViewModel.swift in Sources */,
+				100000000000000000000053 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchIndex.swift in Sources */,
+				100000000000000000000054 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchMemory.swift in Sources */,
+				100000000000000000000055 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchResultCell.swift in Sources */,
+				100000000000000000000056 /* OriBuddyHarbor/OriSpotSearch/OriSpotSearchChipView.swift in Sources */,
+				100000000000000000000057 /* OriBuddyHarbor/OriTideFilter/OriTideFilterState.swift in Sources */,
+				100000000000000000000058 /* OriBuddyHarbor/OriTideFilter/OriTideFilterEngine.swift in Sources */,
+				100000000000000000000059 /* OriBuddyHarbor/OriTideFilter/OriTideFilterChipView.swift in Sources */,
+				100000000000000000000060 /* OriBuddyHarbor/OriTideFilter/OriTideFilterEmptyStateView.swift in Sources */,
+				100000000000000000000061 /* OriBuddyHarbor/OriTideFilter/OriTideFilterSortSheetController.swift in Sources */,
+				100000000000000000000062 /* OriBuddyHarbor/OriTideFilter/OriTideFilterSheetController.swift in Sources */,
+				100000000000000000000063 /* OriBuddyHarbor/OriTripLog/OriTripLogDraftLedger.swift in Sources */,
+				100000000000000000000064 /* OriBuddyHarbor/OriTripLog/OriTripLogPublishControls.swift in Sources */,
+				100000000000000000000065 /* OriBuddyHarbor/OriTripLog/OriTripLogPublishedController.swift in Sources */,
+				100000000000000000000066 /* OriBuddyHarbor/OriTripLog/OriTripLogEditController.swift in Sources */,
+				100000000000000000000067 /* OriBuddyHarbor/OriTripLog/OriTripLogCancelSheetController.swift in Sources */,
+				100000000000000000000068 /* OriBuddyHarbor/OriTripLog/OriTripLogCanceledController.swift in Sources */,
+				100000000000000000000069 /* OriTrustTide/OriTrustTideState.swift in Sources */,
+				100000000000000000000070 /* OriTrustTide/OriTrustTideReview.swift in Sources */,
+				042830CF2FE0FA58000A059C /* OriChatVibeRoutel.swift in Sources */,
+				100000000000000000000071 /* OriTrustTide/OriTrustTideDecoder.swift in Sources */,
+				100000000000000000000072 /* OriTrustTide/OriTrustTideGateway.swift in Sources */,
+				100000000000000000000073 /* OriTrustTide/OriTrustTideMetricsBuilder.swift in Sources */,
+				100000000000000000000074 /* OriTrustTide/OriTrustTideAvatarPipeline.swift in Sources */,
+				100000000000000000000075 /* OriTrustTide/OriTrustTideBadgeView.swift in Sources */,
+				100000000000000000000076 /* OriTrustTide/OriTrustTideScoreCardView.swift in Sources */,
+				100000000000000000000077 /* OriTrustTide/OriTrustTideMetricTileView.swift in Sources */,
+				100000000000000000000078 /* OriTrustTide/OriTrustTideReviewCell.swift in Sources */,
+				100000000000000000000079 /* OriTrustTide/OriTrustTideEmptyReviewView.swift in Sources */,
+				100000000000000000000080 /* OriTrustTide/OriTrustTideViewModel.swift in Sources */,
+				100000000000000000000081 /* OriTrustTide/OriTrustTideLedgerController.swift in Sources */,
+				100000000000000000000082 /* OriCatchLog/OriCatchLogModels.swift in Sources */,
+				100000000000000000000083 /* OriCatchLog/OriCatchLogService.swift in Sources */,
+				100000000000000000000084 /* OriCatchLog/OriCatchLogViewModel.swift in Sources */,
+				100000000000000000000085 /* OriCatchLog/OriCatchLogHeaderView.swift in Sources */,
+				100000000000000000000086 /* OriCatchLog/OriCatchLogWalletView.swift in Sources */,
+				100000000000000000000087 /* OriCatchLog/OriCatchLogSegmentView.swift in Sources */,
+				100000000000000000000088 /* OriCatchLog/OriCatchLogRecordCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		800000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		800000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		800000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OriAnglers/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OriChat;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orichat.anglers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		800000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OriAnglers/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OriChat;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orichat.anglers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900000000000000000000001 /* Build configuration list for PBXProject "OriAnglers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800000000000000000000001 /* Debug */,
+				800000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900000000000000000000002 /* Build configuration list for PBXNativeTarget "OriAnglers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800000000000000000000003 /* Debug */,
+				800000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 700000000000000000000001 /* Project object */;
+}
