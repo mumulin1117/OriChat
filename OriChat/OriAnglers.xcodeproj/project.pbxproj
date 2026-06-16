@@ -101,6 +101,7 @@
 /* Begin PBXFileReference section */
 		042830CC2FE0FA26000A059C /* OriBuaaAkeForNetTooll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriBuaaAkeForNetTooll.swift; sourceTree = "<group>"; };
 		042830CE2FE0FA58000A059C /* OriChatVibeRoutel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriChatVibeRoutel.swift; sourceTree = "<group>"; };
+		049959592FE1202F00F87202 /* OriAnglers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OriAnglers.entitlements; sourceTree = "<group>"; };
 		200000000000000000000001 /* OriHarbor/OriAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriHarbor/OriAppDelegate.swift; sourceTree = "<group>"; };
 		200000000000000000000002 /* OriHarbor/OriSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriHarbor/OriSceneDelegate.swift; sourceTree = "<group>"; };
 		200000000000000000000003 /* OriGearKit/OriGearConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriGearKit/OriGearConstants.swift; sourceTree = "<group>"; };
@@ -214,6 +215,7 @@
 		400000000000000000000002 /* OriAnglers */ = {
 			isa = PBXGroup;
 			children = (
+				049959592FE1202F00F87202 /* OriAnglers.entitlements */,
 				200000000000000000000001 /* OriHarbor/OriAppDelegate.swift */,
 				200000000000000000000002 /* OriHarbor/OriSceneDelegate.swift */,
 				200000000000000000000003 /* OriGearKit/OriGearConstants.swift */,
@@ -514,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OriAnglers/OriAnglers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = NO;
@@ -525,7 +528,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.orichat.anglers;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orifinsh.orichat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -541,6 +544,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OriAnglers/OriAnglers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = NO;
@@ -552,7 +556,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.orichat.anglers;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orifinsh.orichat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
