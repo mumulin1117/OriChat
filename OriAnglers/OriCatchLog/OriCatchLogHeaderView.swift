@@ -33,7 +33,7 @@ final class OriChatCatchProfileHeaderView: UIView {
         if let avatarURL = summary.avatarURL, avatarURL.isEmpty == false {
             avatarView.oriaImagewaterSetURL(avatarURL, placeholderColor: UIColor.white.withAlphaComponent(0.08))
         } else {
-            avatarView.image = AppAsset.buddyImage(named: summary.avatarAssetName, fallback: AppAsset.buddyAvatarCurrent)
+//            avatarView.image = AppAsset.buddyImage(named: summary.avatarAssetName, fallback: AppAsset.buddyAvatarCurrent)
             avatarView.backgroundColor = UIColor.white.withAlphaComponent(0.08)
         }
         ratingLabel.text = summary.ratingText == "No rating yet" ? summary.ratingText : "★ \(summary.ratingText)"
@@ -55,20 +55,26 @@ final class OriChatCatchProfileHeaderView: UIView {
         nameLabel.textAlignment = .center
         nameLabel.numberOfLines = 1
 
+        let avatarHolder = UIView()
+        avatarHolder.addSubview(avatarView)
+        avatarView.translatesAutoresizingMaskIntoConstraints = false
+
         let statRow = UIStackView(arrangedSubviews: [followingButton, postsButton, followersButton])
         statRow.axis = .horizontal
         statRow.distribution = .fillEqually
         statRow.spacing = 8
-        let stack = UIStackView(arrangedSubviews: [avatarView, ratingLabel, nameLabel, statRow])
+        let stack = UIStackView(arrangedSubviews: [avatarHolder, ratingLabel, nameLabel, statRow])
         stack.axis = .vertical
         stack.alignment = .fill
         stack.spacing = 6
         addSubview(stack)
         stack.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
+            avatarHolder.heightAnchor.constraint(equalToConstant: 70),
             avatarView.widthAnchor.constraint(equalToConstant: 70),
             avatarView.heightAnchor.constraint(equalToConstant: 70),
-            avatarView.centerXAnchor.constraint(equalTo: stack.centerXAnchor),
+            avatarView.centerXAnchor.constraint(equalTo: avatarHolder.centerXAnchor),
+            avatarView.centerYAnchor.constraint(equalTo: avatarHolder.centerYAnchor),
             stack.topAnchor.constraint(equalTo: topAnchor, constant: -46),
             stack.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
             stack.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
